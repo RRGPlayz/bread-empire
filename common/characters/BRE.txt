@@ -75,7 +75,7 @@ the_bread_emperor = {
 		}
 		corps_commander = {
 			traits = { old_guard }
-			skill = 15
+			skill = 4
 			attack_skill = 4
 			defense_skill = 2
 			planning_skill = 4
@@ -84,3 +84,27 @@ the_bread_emperor = {
 		}
 	}
 }
+# POLITICAL ADVISORS #
+
+	BRE_Oog={
+		name=BRE_Oog
+		portraits={
+			army={
+				small="GFX_idea_oog"
+			}
+			
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = oog
+			allowed = {
+				original_tag = BRE
+			}
+			traits = {
+				prince_of_terror
+			}
+			ai_will_do = {
+				factor = 0.500
+			}
+		}
+	}
