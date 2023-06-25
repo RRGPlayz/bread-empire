@@ -1,0 +1,34 @@
+ideas = {
+	country = {
+
+		bread_production = {
+			picture = bread_production-1472
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05 
+				industrial_capacity_factory = 0.025
+			}
+		}
+
+	}
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		the_bakery = {
+			
+			
+			allowed = {
+				original_tag = BRE
+			}
+			
+
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}

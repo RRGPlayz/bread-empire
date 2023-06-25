@@ -1,0 +1,86 @@
+characters = {
+#Create country leader - Bread
+bread = {
+	name = bread
+	portraits = {
+		civilian = {
+			#Custom image for Bread
+			large = "/gfx/leaders/BRE/QNwlPmtY-488652.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Facist Bread
+facist_bread = {
+	name = facist_bread
+	portraits = {
+		civilian = {
+			#Custom image for Facist Bread
+			large = "/gfx/leaders/BRE/BHMltTRY-488652.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+#Create country leader - Democratic Bread
+democratic_bread = {
+	name = democratic_bread
+	portraits = {
+		civilian = {
+			#Custom image for Democratic Bread
+			large = "/gfx/leaders/BRE/zEhTAKJe-488652.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  }
+	}
+}
+
+#Create country leader - The Bread Emperor
+the_bread_emperor = {
+	name = the_bread_emperor
+	portraits = {
+		civilian = {
+			#Custom image for The Bread Emperor
+			large = "/gfx/leaders/BRE/SaxesulP-488652.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = oligarchism
+		traits = { retired_officer  }
+	}
+}
+
+#Create military leader - SGT Persuade 'Bread Emperor'
+	sgtpersuadebreademperor = {
+		name = "sgtpersuadebreademperor"
+		portraits = {
+			army = {
+				#Custom images for SGT Persuade 'Bread Emperor'
+				large = "/gfx/leaders/BRE/sgtpersuadebreademperor-488652.dds"
+				small = "/gfx/interface/ideas/BRE/sgtpersuadebreademperor-488652.dds"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 15
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		legacy_id = 18976000
+		}
+	}
+}
