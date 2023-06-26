@@ -1,11 +1,11 @@
 characters = {
 #Create country leader - Bread
-bread = {
-	name = bread
+commune_of_bread = {
+	name = commune_of_bread
 	portraits = {
 		civilian = {
 			#Custom image for Bread
-			large = "/gfx/leaders/BRE/QNwlPmtY-488652.dds"
+			large = "/gfx/leaders/commune_of_bread.dds"
 		}
 	}
 	country_leader = {
@@ -21,7 +21,7 @@ facist_bread = {
 	portraits = {
 		civilian = {
 			#Custom image for Facist Bread
-			large = "/gfx/leaders/BRE/BHMltTRY-488652.dds"
+			large = "/gfx/leaders/BRE/persuade.dds"
 		}
 	}
 	country_leader = {
@@ -37,7 +37,7 @@ democratic_bread = {
 	portraits = {
 		civilian = {
 			#Custom image for Democratic Bread
-			large = "/gfx/leaders/BRE/zEhTAKJe-488652.dds"
+			large = "/gfx/leaders/BRE/persuade.dds"
 		}
 	}
 	country_leader = {
@@ -53,7 +53,7 @@ the_bread_emperor = {
 	portraits = {
 		civilian = {
 			#Custom image for The Bread Emperor
-			large = "/gfx/leaders/BRE/SaxesulP-488652.dds"
+			large = "/gfx/leaders/BRE/persuade.dds"
 		}
 	}
 	country_leader = {
@@ -70,8 +70,8 @@ the_bread_emperor = {
 		portraits = {
 			army = {
 				#Custom images for SGT Persuade 'Bread Emperor'
-				large = "/gfx/leaders/BRE/sgtpersuadebreademperor-488652.dds"
-				small = "/gfx/interface/ideas/BRE/sgtpersuadebreademperor-488652.dds"
+				large = "/gfx/leaders/BRE/persuade.dds"
+				small = "/gfx/interface/ideas/BRE/persuade.dds"
 			}
 		}
 		corps_commander = {
@@ -102,6 +102,47 @@ the_bread_emperor = {
 				
 				traits = {
 					prince_of_terror
+				}
+		}
+	}
+
+	BRE_max={
+		name=BRE_max
+		portraits={
+			army={
+				small="GFX_idea_Max"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = high_command
+			idea_token = max
+				allowed = {
+					original_tag = BRE
+				}
+				
+				traits = {
+					army_logistics_3
+				}
+		}
+	}
+
+	BRE_benja={
+		name=BRE_benja
+		portraits={
+			army={
+				small="GFX_idea_benja"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = navy_chief
+			idea_token = benja
+				allowed = {
+					original_tag = BRE
+				}
+				traits = {
+					navy_chief_decisive_battle_2
 				}
 		}
 	}

@@ -4,5 +4,14 @@ spriteTypes = {
 		name = "GFX_idea_oog"
 		texturefile = "gfx/interface/ideas/oog.dds"
 	}
-  
+
+	spriteType = {
+		name = "GFX_idea_Max"
+		texturefile = "gfx/interface/ideas/max.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_benja"
+		textureFile = "gfx/interface/ideas/benja.dds"
+	}
 }
