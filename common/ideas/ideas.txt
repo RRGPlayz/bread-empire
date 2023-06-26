@@ -11,25 +11,17 @@ ideas = {
 
 	}
 	materiel_manufacturer = {
-			
 		designer = yes
-		
 		the_bakery = {
-			
-			
 			allowed = {
 				original_tag = BRE
 			}
-			
-
-			
 			research_bonus = {
 				infantry_weapons = 0.15
 			}
-			
 			traits = { infantry_equipment_manufacturer }
-			
 			modifier = {
+
 			}
 		}
 	}

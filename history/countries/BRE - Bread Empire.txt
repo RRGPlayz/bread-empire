@@ -139,4 +139,4 @@ recruit_character = democratic_bread
 recruit_character = facist_bread
 recruit_character = bread
 recruit_character = sgtpersuadebreademperor
-recruit_character = BRE_Oog
+recruit_character = BRE_oog

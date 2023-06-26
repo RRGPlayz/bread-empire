@@ -59,7 +59,7 @@ the_bread_emperor = {
 	country_leader = {
 		expire = "1965.1.1"
 		ideology = oligarchism
-		desc = "That Guy"- Persuade
+		desc = "That Guy - Persuade"
 		traits = { retired_officer  }
 	}
 }
@@ -84,32 +84,25 @@ the_bread_emperor = {
 		legacy_id = 18976000
 		}
 	}
-}
-# POLITICAL ADVISORS #
 
-	BRE_Oog = {
-		name = BRE_Oog
-		portraits = {
-			civilian = {
-				small="GFX_idea_Oog"
+	BRE_oog={
+		name=BRE_oog
+		portraits={
+			army={
+				small="GFX_idea_oog"
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			allowed = {
-				original_tag = BRE
-			}
+		advisor={
 			cost = 150
-			ledger = civilian
-			desc = "The Ooger is an oog"
-			available = {
-				has_completed_focus = BRE_open_the_bread_factories
-			}
-			traits = {
-				prince_of_terror
-			}
-			ai_will_do = {
-				factor = 1.0
-			}
+			slot = political_advisor
+			idea_token = oog
+				allowed = {
+					original_tag = BRE
+				}
+				
+				traits = {
+					prince_of_terror
+				}
 		}
 	}
+}

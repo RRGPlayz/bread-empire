@@ -1,8 +1,8 @@
 spriteTypes = {
 
-    SpriteType = {
-        name = "GFX_idea_oog"
-        texturefile = "gfx/interface/ideas/BRE/oog.dds"
-    }
-        
+	SpriteType = { 
+		name = "GFX_idea_oog"
+		texturefile = "gfx/interface/ideas/oog.dds"
+	}
+  
 }
