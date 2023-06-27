@@ -57,7 +57,7 @@ the_bread_emperor = {
 	portraits = {
 		civilian = {
 			#Custom image for The Bread Emperor
-			large = "/gfx/leaders/BRE/persuade.dds"
+			large = "GFX_character_bread_emperor"
 		}
 	}
 	
@@ -70,12 +70,12 @@ the_bread_emperor = {
 }
 
 #Create military leader - SGT Persuade 'Bread Emperor'
-	sgtpersuadebreademperor = {
-		name = "sgtpersuadebreademperor"
+	persuade = {
+		name = "persuade"
 		portraits = {
 			army = {
 				#Custom images for SGT Persuade 'Bread Emperor'
-				large = "/gfx/leaders/BRE/persuade.dds"
+				large = "/gfx/leaders/persuade.dds"
 				small = "/gfx/interface/ideas/BRE/persuade.dds"
 			}
 		}

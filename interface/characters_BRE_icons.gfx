@@ -34,4 +34,9 @@ spriteTypes = {
 		name = "GFX_character_fireSpit"
 		textureFile = "gfx/leaders/fireSpit.dds"
 	}
+
+	spriteType = {
+		name = "GFX_character_bread_emperor"
+		textureFile = "gfx/leaders/bread_emperor.dds"
+	}
 }
