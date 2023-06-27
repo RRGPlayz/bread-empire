@@ -20,6 +20,12 @@ the_bread_emperor:0 "The Bread Emperor"
 
 facist_bread:0 "Facist Bread"
 
+BRE_nova:0 "Nova"
+
+BRE_panther:0 "Panther"
+
+BRE_deezo:0 "Deezo"
+
 ##Char Descriptions
 persuade_desc: "'That Guy' - Persuade"
 

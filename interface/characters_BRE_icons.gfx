@@ -39,4 +39,24 @@ spriteTypes = {
 		name = "GFX_character_bread_emperor"
 		textureFile = "gfx/leaders/bread_emperor.dds"
 	}
+
+	spriteType = {
+		name = "GFX_character_nova"
+		textureFile = "gfx/interface/ideas/nova.dds"
+	}
+
+	spriteType = {
+		name = "GFX_character_deezo"
+		textureFile = "gfx/interface/ideas/deezo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_character_panther2"
+		textureFile = "gfx/interface/ideas/panther.dds"
+	}
+
+	spriteType = {
+		name = "GFX_character_panther1"
+		textureFile = "gfx/leaders/panther.dds"
+	}
 }

@@ -23,7 +23,7 @@ facist_bread = {
 	portraits = {
 		civilian = {
 			#Custom image for Facist Bread
-			large = "/gfx/leaders/BRE/persuade.dds"
+			large = "/gfx/leaders/persuade.dds"
 		}
 	}
 	country_leader = {
@@ -76,7 +76,7 @@ the_bread_emperor = {
 			army = {
 				#Custom images for SGT Persuade 'Bread Emperor'
 				large = "/gfx/leaders/persuade.dds"
-				small = "/gfx/interface/ideas/BRE/persuade.dds"
+				small = "/gfx/interface/ideas/persuade.dds"
 			}
 		}
 		corps_commander = {
@@ -196,6 +196,76 @@ the_bread_emperor = {
 			defense_skill = 1
 			planning_skill = 3
 			logistics_skill = 1
+		}
+	}
+
+	BRE_nova={
+		name=BRE_nova
+		portraits={
+			army={
+				small="GFX_character_nova"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = air_chief
+			idea_token = nova
+				allowed = {
+					original_tag = BRE
+				}
+				traits = {
+					air_air_superiority_2
+				}
+		}
+	}
+
+	BRE_deezo={
+		name=BRE_deezo
+		portraits={
+			army={
+				small="GFX_character_deezo"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = air_chief
+			idea_token = deezo
+				allowed = {
+					original_tag = BRE
+				}
+				traits = {
+					air_chief_ground_support_2
+				}
+		}
+	}
+
+	BRE_panther={
+		name=BRE_panther
+		portraits={
+			army={
+				small = "GFX_character_panther2"
+				large = "GFX_character_panther1"
+			}
+		}
+		corps_commander = {
+			traits = { panzer_leader panzer_expert }
+			skill = 6
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		advisor={
+			cost = 150
+			slot = high_command
+			idea_token = max
+				allowed = {
+					original_tag = BRE
+				}
+				
+				traits = {
+					army_armored_3
+				}
 		}
 	}
 }
