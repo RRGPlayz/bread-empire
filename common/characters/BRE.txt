@@ -8,7 +8,9 @@ commune_of_bread = {
 			large = "/gfx/leaders/commune_of_bread.dds"
 		}
 	}
+	
 	country_leader = {
+		desc = commune_desc
 		expire = "1965.1.1"
 		ideology = stalinism
 		traits = {  }
@@ -32,16 +34,18 @@ facist_bread = {
 }
 
 #Create country leader - Democratic Bread
-democratic_bread = {
-	name = democratic_bread
+fireSpit = {
+	name = fireSpit
 	portraits = {
 		civilian = {
 			#Custom image for Democratic Bread
-			large = "/gfx/leaders/BRE/persuade.dds"
+			large = "GFX_character_fireSpit"
 		}
 	}
+
 	country_leader = {
-		expire = "1965.1.1"
+	desc = fireSpit_desc
+	expire = "1965.1.1"
 		ideology = liberalism
 		traits = {  }
 	}
@@ -56,10 +60,11 @@ the_bread_emperor = {
 			large = "/gfx/leaders/BRE/persuade.dds"
 		}
 	}
+	
 	country_leader = {
 		expire = "1965.1.1"
 		ideology = oligarchism
-		desc = "That Guy - Persuade"
+		desc = persuade_desc
 		traits = { retired_officer  }
 	}
 }
@@ -76,11 +81,11 @@ the_bread_emperor = {
 		}
 		corps_commander = {
 			traits = { old_guard }
-			skill = 4
+			skill = 6
 			attack_skill = 4
 			defense_skill = 2
 			planning_skill = 4
-			logistics_skill = 5
+			logistics_skill = 3
 		legacy_id = 18976000
 		}
 	}
@@ -89,7 +94,7 @@ the_bread_emperor = {
 		name=BRE_oog
 		portraits={
 			army={
-				small="GFX_idea_oog"
+				small="GFX_character_oog"
 			}
 		}
 		advisor={
@@ -110,7 +115,7 @@ the_bread_emperor = {
 		name=BRE_max
 		portraits={
 			army={
-				small="GFX_idea_Max"
+				small="GFX_character_Max"
 			}
 		}
 		advisor={
@@ -131,7 +136,7 @@ the_bread_emperor = {
 		name=BRE_benja
 		portraits={
 			army={
-				small="GFX_idea_benja"
+				small="GFX_character_benja"
 			}
 		}
 		advisor={
@@ -151,8 +156,8 @@ the_bread_emperor = {
 		name=BRE_lee
 		portraits={
 			army={
-				large = "GFX_idea_lee1"
-				small = "GFX_idea_lee2"
+				large = "GFX_character_lee1"
+				small = "GFX_character_lee2"
 			}
 		}
 		advisor={
@@ -168,11 +173,29 @@ the_bread_emperor = {
 		}
 		field_marshal = {
 			traits = { organizer thorough_planner }
-			skill = 10
+			skill = 7
 			attack_skill = 5
 			defense_skill = 3
 			planning_skill = 5
 			logistics_skill = 2
+		}
+	}
+
+	BRE_oscar = {
+		name = "BRE_oscar"
+		portraits = {
+			army = {
+				small = "GFX_character_oscar"
+				large = "GFX_character_oscar"
+			}
+		}
+		corps_commander = {
+			traits = { trait1 trait2 trait3 trait4 trait5 }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
 		}
 	}
 }

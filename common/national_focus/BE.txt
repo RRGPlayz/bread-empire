@@ -1,5 +1,5 @@
 focus_tree = {
-	id = be
+	id = BRE
 	continuous_focus_position = { x = -40 y = 10 } 
 	country = {
 		factor = 0

@@ -5,4 +5,3 @@ BRE_DIV_0_0 = {	name = "Infantry Division"
 		"infantry" }
 	}
 	fallback_name = "%d. Infantry Division"
-}

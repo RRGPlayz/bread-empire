@@ -1,27 +1,37 @@
 spriteTypes = {
 
 	SpriteType = { 
-		name = "GFX_idea_oog"
-		texturefile = "gfx/interface/ideas/oog.dds"
+		name = "GFX_character_oog"
+		texturefile = "gfx/interface/ideas/Oog.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_Max"
-		texturefile = "gfx/interface/ideas/max.dds"
+		name = "GFX_character_Max"
+		texturefile = "gfx/interface/ideas/Max.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_benja"
-		textureFile = "gfx/interface/ideas/benja.dds"
+		name = "GFX_character_benja"
+		textureFile = "gfx/interface/ideas/Benja.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_lee1"
+		name = "GFX_character_lee1"
 		textureFile = "gfx/leaders/lee.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_lee2"
+		name = "GFX_character_lee2"
 		textureFile = "gfx/interface/ideas/lee.dds"
+	}
+
+	spriteType = {
+		name = "GFX_character_oscar"
+		textureFile = "gfx/interface/ideas/oscar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_character_fireSpit"
+		textureFile = "gfx/leaders/fireSpit.dds"
 	}
 }

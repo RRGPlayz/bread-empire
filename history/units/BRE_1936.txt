@@ -1,4 +1,31 @@
-#Create units
+# Starting Production #
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+	    type = infantry_equipment_1
+	    creator = "BRE"
+	}
+	requested_factories = 1
+	progress = 0.19
+	efficiency = 100
+    }
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_1
+			creator = "BRE" 
+			version_name = "P-35A"
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+}
+
+# Divison Templates #
 division_template = {
 	name = "Infantry Division"
 
@@ -22,5 +49,17 @@ division_template = {
 	}
 }
 
-#Spawn units
+# Spawn units #
+units = {
 
+	division= {	
+		name = "1st Infantry Division"
+		location = 1843
+		division_template = "Infantry Division"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.8
+	}
+	
+	}
+
+	

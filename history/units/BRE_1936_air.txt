@@ -1,0 +1,9 @@
+air_wings = {
+	366 = { 
+		small_plane_airframe_1 =  {
+			owner = "BRE" 
+			amount = 36
+			version_name = "P-35A"
+		}
+	}
+}

@@ -1,7 +1,28 @@
 ﻿l_english:
+##Chars
 sgtpersuadebreademperor:0 "SGT Persuade 'Bread Emperor'"
-commune_of_bread:0 "Council of Bread"
+
+commune_of_bread:0 "People's Council of Bread"
+
+fireSpit:0 "fireSpit"
+
 BRE_oog:0 "The Ooger"
+
 BRE_max:0 "Max Friedrich"
+
 BRE_benja:0 "Benja Genie"
-BRE_lee:0 "Lieutenant Lee"
+
+BRE_lee:0 "Lee"
+
+BRE_oscar:0 "CT Oscar CT-15750"
+
+the_bread_emperor:0 "The Bread Emperor"
+
+facist_bread:0 "Facist Bread"
+
+##Char Descriptions
+persuade_desc: "'That Guy' - Persuade"
+
+fireSpit_desc: "This is not Spitfire, this is his twin brother, fireSpit."
+
+commune_desc: "This council is made up entirely of people that live in Europe, and that is why they are perfect for this council in Florida."
