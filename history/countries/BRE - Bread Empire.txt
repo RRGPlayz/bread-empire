@@ -142,3 +142,4 @@ recruit_character = sgtpersuadebreademperor
 recruit_character = BRE_oog
 recruit_character = BRE_max
 recruit_character = BRE_benja
+recruit_character = BRE_lee

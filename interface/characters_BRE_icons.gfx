@@ -14,4 +14,14 @@ spriteTypes = {
 		name = "GFX_idea_benja"
 		textureFile = "gfx/interface/ideas/benja.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_lee1"
+		textureFile = "gfx/leaders/lee.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lee2"
+		textureFile = "gfx/interface/ideas/lee.dds"
+	}
 }

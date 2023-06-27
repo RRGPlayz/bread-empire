@@ -146,4 +146,33 @@ the_bread_emperor = {
 				}
 		}
 	}
+
+	BRE_lee={
+		name=BRE_lee
+		portraits={
+			army={
+				large = "GFX_idea_lee1"
+				small = "GFX_idea_lee2"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = army_chief
+			idea_token = lee
+				allowed = {
+					original_tag = BRE
+				}
+				traits = {
+					army_commando_3
+				}
+		}
+		field_marshal = {
+			traits = { organizer thorough_planner }
+			skill = 10
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 2
+		}
+	}
 }
