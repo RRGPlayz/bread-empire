@@ -80,7 +80,7 @@ the_bread_emperor = {
 			}
 		}
 		corps_commander = {
-			traits = { old_guard trait2 trait3 trait4 trait5 }
+			traits = { old_guard }
 			skill = 6
 			attack_skill = 4
 			defense_skill = 2
@@ -172,7 +172,7 @@ the_bread_emperor = {
 				}
 		}
 		field_marshal = {
-			traits = { organizer thorough_planner trait3 trait4 trait5 }
+			traits = { organizer thorough_planner }
 			skill = 7
 			attack_skill = 5
 			defense_skill = 3
@@ -190,7 +190,7 @@ the_bread_emperor = {
 			}
 		}
 		corps_commander = {
-			traits = { trait1 trait2 trait3 trait4 trait5 }
+			traits = { }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
