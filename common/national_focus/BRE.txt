@@ -36,7 +36,6 @@ focus_tree = {
 			}
 			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
 			}
-			
 			random_owned_controlled_state = {
 			limit = {
 			free_building_slots = {
@@ -53,37 +52,14 @@ focus_tree = {
 			}
 			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
 			}
-			
 			add_timed_idea = {
 			    idea = Bread_Production
 			    days = 180
 			}
-
 			news_event = {
 			    id = BRE_events.1
 			    days = 0
 			}
-			
-			
-			
 		}
-	}
-
-	#Focus for Bread Research
-	focus = {
-		id = BRE_bread_research
-		icon = GFX_focus_research2
-		x = 8
-		y = 1
-		cost = 6
-		available_if_capitulated = yes
-		prerequisite = { focus = BRE_open_the_bread_factories }
-		search_filters = { FOCUS_FILTER_RESEARCH } 
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_research_slot= 1
-		}
-	}
+	}	
 }

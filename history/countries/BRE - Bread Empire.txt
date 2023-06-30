@@ -10,6 +10,10 @@ add_ideas = {
 	volunteer_only
 	low_economic_mobilisation
 }
+add_timed_idea = {
+    idea = BRE_independence_purchase
+    days = 730
+}
 
 ##Order of Battles
 set_air_oob = "BRE_1936_air"

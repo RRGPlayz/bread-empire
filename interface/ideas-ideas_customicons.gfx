@@ -1,15 +1,18 @@
 spriteTypes = { 
-	##Icon For: Bread Production
+
 	SpriteType = { 
 		name = "GFX_idea_bread_production-1472"
 		texturefile = "gfx/interface/ideas/ideas-ideas/bread_production-1472.dds"
 	}
 
-	##Icon For: The Bakery
 	SpriteType = { 
 		name = "GFX_idea_the_bakery"
 		texturefile = "gfx/interface/ideas/ideas-ideas/the_bakery.dds"
 	}
-
+	
+	spriteType = {
+		name = "GFX_idea_independence_purchase"
+		textureFile = "gfx/interface/ideas/BRE_independence_purchase.dds"
+	}
  
  }
