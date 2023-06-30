@@ -3,5 +3,8 @@ bread_production:0 "Bread Production"
 bread_production_desc:0 "Our Bread Production has spiked since the announcement of the grand opening!"
 the_bakery:0 "The Bakery"
 BRE_independence_purchase:0 "Cost of Independence"
+bread_output:0 "Bread Output"
+bread_construction:0 "Bread Construction"
 
+##Descriptions
 BRE_independence_purchase_desc:0 "In order for us to thrive, our Bread Emperor (Persuade) paid off the President."

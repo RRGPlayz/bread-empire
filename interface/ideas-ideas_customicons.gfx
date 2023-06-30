@@ -14,5 +14,5 @@ spriteTypes = {
 		name = "GFX_idea_independence_purchase"
 		textureFile = "gfx/interface/ideas/BRE_independence_purchase.dds"
 	}
- 
+
  }

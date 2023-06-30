@@ -1,6 +1,5 @@
 ideas = {
 	country = {
-
 		bread_production = {
 			picture = bread_production-1472
 			modifier = {
@@ -8,7 +7,22 @@ ideas = {
 				industrial_capacity_factory = 0.025
 			}
 		}
-
+	}
+	country = {
+		bread_output = {
+			picture = bread_production-1472
+			modifier = {
+				industrial_capacity_factory = 0.15
+			}
+		}
+	}
+	country = {
+		bread_construction = {
+			picture = bread_production-1472
+			modifier = {
+				production_speed_buildings_factor = 0.25
+			}
+		}
 	}
 	materiel_manufacturer = {
 		designer = yes
