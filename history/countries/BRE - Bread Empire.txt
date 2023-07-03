@@ -98,6 +98,7 @@ recruit_character = BRE_oscar
 recruit_character = BRE_nova
 recruit_character = BRE_deezo
 recruit_character = BRE_panther
+recruit_character = BRE_benja
 
 ##Equipment Variations##
 #Tanks#

@@ -115,19 +115,27 @@ the_bread_emperor = {
 		name=BRE_max
 		portraits={
 			army={
-				small="GFX_character_Max"
+				#large=
+				small="GFX_character_max"
 			}
 		}
 		advisor={
-			cost = 150
 			slot = high_command
 			idea_token = max
-				allowed = {
-					has_completed_focus = BRE_army_recruit
-				}
-				traits = {
-					army_logistics_3
-				}
+			ledger = army
+			allowed = {
+				original_tag = BRE
+			}
+			available = {
+				has_completed_focus = BRE_army_recruit
+			}
+			traits = {
+				army_logistics_3
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 8.000
+			}
 		}
 	}
 
@@ -144,6 +152,9 @@ the_bread_emperor = {
 			idea_token = benja
 				allowed = {
 					original_tag = BRE
+				}
+				available = {
+					has_completed_focus = BRE_navy_benja
 				}
 				traits = {
 					navy_chief_decisive_battle_2
@@ -195,6 +206,9 @@ the_bread_emperor = {
 			defense_skill = 1
 			planning_skill = 3
 			logistics_skill = 1
+			visible = { 
+				has_completed_focus = BRE_army_recruit
+			}
 		}
 	}
 
@@ -232,6 +246,9 @@ the_bread_emperor = {
 				allowed = {
 					original_tag = BRE
 				}
+				available = {
+					has_completed_focus = BRE_army_recruit
+				}
 				traits = {
 					air_chief_ground_support_2
 				}
@@ -257,7 +274,7 @@ the_bread_emperor = {
 		advisor={
 			cost = 150
 			slot = high_command
-			idea_token = max
+			idea_token = panther
 				allowed = {
 					original_tag = BRE
 				}

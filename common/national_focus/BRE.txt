@@ -575,7 +575,8 @@ focus_tree = {
 			search_filters = {FOCUS_FILTER_NAVY_XP}
 			completion_reward = {
 				air_experience = 75
-				recruit_character = BRE_benja
+				custom_effect_tooltip = available_chief_of_navy
+				show_ideas_tooltip = benja
 			}
 		}
 
@@ -997,8 +998,12 @@ focus_tree = {
 			prerequisite = { focus = BRE_army_structure }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
+				show_unit_leaders_tooltip = BRE_oscar
+
 				custom_effect_tooltip = available_military_high_command
-				show_ideas_tooltip = BRE_max
+				show_ideas_tooltip = max
+				custom_effect_tooltip = available_chief_of_airforce
+				show_ideas_tooltip = deezo
 			}
 		}
 

@@ -6,7 +6,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_character_Max"
+		name = "GFX_character_max"
 		texturefile = "gfx/interface/ideas/Max.dds"
 	}
 

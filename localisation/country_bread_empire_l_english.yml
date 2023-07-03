@@ -1,28 +1,20 @@
 ﻿l_english:
-BRE_neutrality_party:0 "One"
-
-BRE_communism_party:0 "Two"
-
-BRE_democratic_party:0 "Three"
-
-BRE_fascism_party:0 "Four"
-
-the_bread_emperor:0 "The Bread Emperor"
-
-facist_bread:0 "Facist Bread"
-
 BRE_democratic:5 "United Sourdough of Florida"
 BRE_democratic_DEF:5 "United Sourdough of Florida"
 BRE_democratic_ADJ:5 "Sourdough Republic Citizen"
+BRE_democratic_party:0 "Democracy"
 
 BRE_fascism:5 "Bread Reich"
 BRE_fascism_DEF:5 "The Bread Reich"
 BRE_fascism_ADJ:5 "Bread Reich Citizen"
+BRE_fascism_party:0 "Dictatorship"
 
 BRE_communism:5 "Commune of Bread"
 BRE_communism_DEF:5 "The Commune of Bread"
 BRE_communism_ADJ:5 "Commune of Bread Citizen"
+BRE_communism_party:0 "Council Republic"
 
 BRE_neutrality:5 "Bread Empire"
 BRE_neutrality_DEF:5 "The Bread Empire"
 BRE_neutrality_ADJ:5 "Bread Empire Citizen"
+BRE_neutrality_party:0 "Authoritarian Regime"
