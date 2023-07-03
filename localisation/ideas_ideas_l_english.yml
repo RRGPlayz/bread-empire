@@ -5,6 +5,10 @@ the_bakery:0 "The Bakery"
 BRE_independence_purchase:0 "Cost of Independence"
 bread_output:0 "Bread Output"
 bread_construction:0 "Bread Construction"
+BRE_military_formation:0 "Military Formation"
+BRE_military_formation_desc:1 "The Bread Military is undergoing its formation, which requires a large amount of time and effort from our command staff."
+BRE_military_formation_removal_tt:0 "This National Spirit will be removed upon completion of the focus '§Y$BRE_form_military$§!'"
+BRE_max:0 "Max Friedrich"
 
 ##Descriptions
 BRE_independence_purchase_desc:0 "In order for us to thrive, our Bread Emperor (Persuade) paid off the President."

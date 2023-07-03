@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	SpriteType = {
+	name = GFX_goal_focus_BRE_form_army
+	textureFile = gfx/interface/goals/focus_BRE_form_army.dds
+	}
+
+	SpriteType = {
+		name = GFX_goal_focus_BRE_marines
+		textureFile = gfx/interface/goals/focus_BRE_marines.dds
+	}
+
+}

@@ -1,7 +1,9 @@
 ideas = {
 	country = {
 		bread_production = {
+
 			picture = bread_production-1472
+
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.05 
 				industrial_capacity_factory = 0.025
@@ -10,7 +12,9 @@ ideas = {
 	}
 	country = {
 		bread_output = {
+
 			picture = bread_production-1472
+
 			modifier = {
 				industrial_capacity_factory = 0.15
 			}
@@ -18,22 +22,29 @@ ideas = {
 	}
 	country = {
 		bread_construction = {
+
 			picture = bread_production-1472
+
 			modifier = {
 				production_speed_buildings_factor = 0.25
 			}
 		}
 	}
 	materiel_manufacturer = {
+		
 		designer = yes
+
 		the_bakery = {
+
 			allowed = {
 				original_tag = BRE
 			}
+
 			research_bonus = {
 				infantry_weapons = 0.15
 			}
 			traits = { infantry_equipment_manufacturer }
+
 			modifier = {
 
 			}
@@ -41,9 +52,140 @@ ideas = {
 	}
 	country = {
 		BRE_independence_purchase = {
+
 			picture = independence_purchase
+
 			modifier = {
 				consumer_goods_factor = 0.25
+			}
+
+		}
+	}
+	country = {
+		BRE_military_formation = {
+
+			picture = generic_army_problems
+
+			removal_cost = -1
+
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				experience_gain_army_factor = -1
+				experience_gain_air_factor = -1
+				experience_gain_navy_factor = -1
+				custom_modifier_tooltip = BRE_military_formation_removal_tt
+			}
+		}
+	}
+
+	country = {
+		BRE_fib_construction = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+		
+			removal_cost = -1
+		
+			equipment_bonus = {
+				destroyer = {
+					instant = yes
+					build_cost_ic = -0.15
+				}
+			}
+		}
+	}
+
+	country = {
+		BRE_fib_commission = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+		
+			removal_cost = -1
+		
+			modifier = {
+				production_speed_dockyard_factor = 0.1	
+			}
+		}
+	}
+
+	country = {
+		BRE_trade_construction = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				submarine = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+	}
+
+	country = {
+		BRE_trade_mines = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				mines_planting_by_fleets_factor = 0.1
+				mines_sweeping_by_fleets_factor = 0.1
+				naval_mine_hit_chance = -0.05
+				naval_mines_damage_factor = 0.05
+			}
+		}
+	}
+
+	country = {
+		BRE_navy_waves = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_dockyard = 0.15
+				naval_critical_score_chance_factor = 0.15
+				naval_hit_chance = 0.10
 			}
 		}
 	}

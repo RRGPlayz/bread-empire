@@ -123,9 +123,8 @@ the_bread_emperor = {
 			slot = high_command
 			idea_token = max
 				allowed = {
-					original_tag = BRE
+					has_completed_focus = BRE_army_recruit
 				}
-				
 				traits = {
 					army_logistics_3
 				}

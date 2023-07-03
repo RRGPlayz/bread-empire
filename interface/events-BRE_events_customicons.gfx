@@ -4,6 +4,4 @@ spriteTypes = {
 		name = "BRE_bread_production_begins-782"
 		texturefile = "gfx/interface/events/events-event/BRE_bread_production_begins-782.dds"
 	}
-
- 
  }

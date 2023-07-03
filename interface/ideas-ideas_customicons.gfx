@@ -2,12 +2,12 @@ spriteTypes = {
 
 	SpriteType = { 
 		name = "GFX_idea_bread_production-1472"
-		texturefile = "gfx/interface/ideas/ideas-ideas/bread_production-1472.dds"
+		texturefile = "gfx/interface/ideas/bread_production-1472.dds"
 	}
 
 	SpriteType = { 
 		name = "GFX_idea_the_bakery"
-		texturefile = "gfx/interface/ideas/ideas-ideas/the_bakery.dds"
+		texturefile = "gfx/interface/ideas/the_bakery.dds"
 	}
 	
 	spriteType = {

@@ -1,4 +1,5 @@
 ﻿l_english: 
+#Industry Tree
 BRE_prepare_the_industrialisation:0 "Prepare the industrialisation"
 BRE_prepare_the_industrialisation_desc:0 "Now that we have acquired our independence, it is time to begin the industrialisation of our land, and do what the US could not!"
 BRE_open_the_first_bread_factories:0 "Open the first Bread Factories"
@@ -19,3 +20,13 @@ BRE_investinradar:0 "Invest in 'RADAR'"
 BRE_investinradar_desc:0 "Our Breadists have come up with an idea named 'RADAR', which will allow us to detect the enemy without risking life, we should invest in this technology to prevent any opposition from destroying our Bread."
 BRE_construct_new_docks:0 "Construct new docks"
 BRE_construct_new_docks_desc:0 "With the large amount of bread we are producing, we require more extensive docks, which can allow us to create more convoys to export our Bread!"
+
+#Military Tree
+BRE_form_military:0 "Begin the formation of the Bread Military"
+BRE_form_military_desc:0 "The Bread Military is undergoing its formation, which requires a large amount of time and effort from our command staff."
+BRE_army_structure:0 "Structurize the Army"
+BRE_army_structure_desc:0 "With the basic formation of the military complete, it is time to give the army a basic structure."
+BRE_airforce_structure:0 "Structurize the Airforce"
+BRE_airforce_structure_desc:0 "With the basic formation of the military complete, it is time to give the airforce a basic structure."
+BRE_navy_structure:0 "Structurize the Navy"
+BRE_navy_structure_desc:0 "With the basic formation of the military complete, it is time to give the navy a basic structure."
