@@ -8,7 +8,12 @@ bread_construction:0 "Bread Construction"
 BRE_military_formation:0 "Military Formation"
 BRE_military_formation_desc:1 "The Bread Military is undergoing its formation, which requires a large amount of time and effort from our command staff."
 BRE_military_formation_removal_tt:0 "This National Spirit will be removed upon completion of the focus '§Y$BRE_form_military$§!'"
-max_advisor:0 "Max Friedrich"
+BRE_armor_focus:0 "Armor Focus"
+BRE_modify_armor_bonus:0 "Modify §Y$BRE_armor_focus$§! by"
+BRE_armor_bonus_tt:1 "$BRE_modify_armor_bonus$ \n$armor_research$: §G+10%§! \n\n"
+BRE_armor_cost_tt:1 "§Y$medium_tank_chassis$§!: $production_cost_tt$ §G-15.00%§!"
+BRE_infantry_gb:0 "Grand Battleplan Focus"
+BRE_infantry_sf:0 "Superior Firepower Focus"
 
 ##Descriptions
 BRE_independence_purchase_desc:0 "In order for us to thrive, our Bread Emperor (Persuade) paid off the President."

@@ -610,6 +610,7 @@ focus_tree = {
 			prerequisite = { focus = BRE_navy_benja }
 			search_filters = {FOCUS_FILTER_NAVY_XP}
 			completion_reward = {
+				custom_effect_tooltip = BRE_create_unit_bread_marines_tt
 				hidden_effect = {
 					division_template = {
 						name = "Bread Marines"
@@ -630,7 +631,7 @@ focus_tree = {
 						}
 						priority = 2
 					}
-				}
+				
 				random_owned_controlled_state = {
 					prioritize = { 7388 }
 				create_unit = {
@@ -638,6 +639,7 @@ focus_tree = {
 					owner = ROOT
 					count = 2
 				}
+			}
 			}
 			}
 		}
@@ -822,7 +824,7 @@ focus_tree = {
 			x = 3
 			y = 1
 			relative_position_id = BRE_army_structure
-			cost = 10
+			cost = 1
 			prerequisite = { focus = BRE_army_structure }
 			mutually_exclusive = { focus = BRE_army_armor }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
@@ -837,12 +839,18 @@ focus_tree = {
 			x = -3
 			y = 1
 			relative_position_id = BRE_army_structure
-			cost = 10
+			cost = 1
 			prerequisite = { focus = BRE_army_structure }
 			mutually_exclusive = { focus = BRE_army_infantry }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
-				
+				add_ideas = BRE_armor_focus
+				add_tech_bonus = {
+					name = SOV_superior_war_machines
+					bonus = 0.75
+					uses = 2
+					category = armor
+				}
 			}
 		}
 
@@ -856,7 +864,14 @@ focus_tree = {
 			prerequisite = { focus = BRE_army_armor }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
-				
+				custom_effect_tooltip = BRE_armor_bonus_tt
+
+				hidden_effect = {
+					swap_ideas = {
+						remove_idea = BRE_armor_focus
+						add_idea = BRE_armor_focus1
+					}
+				}
 			}
 		}
 
@@ -870,7 +885,15 @@ focus_tree = {
 			prerequisite = { focus = BRE_army_armor_bonus }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
-				
+				custom_effect_tooltip = BRE_modify_armor_bonus
+				custom_effect_tooltip = BRE_armor_cost_tt
+
+				hidden_effect = {
+					swap_ideas = {
+						remove_idea = BRE_armor_focus1
+						add_idea = BRE_armor_focus2
+					}
+				}
 			}
 		}
 
@@ -894,12 +917,12 @@ focus_tree = {
 			x = 1
 			y = 1
 			relative_position_id = BRE_army_infantry
-			cost = 10
+			cost = 5
 			prerequisite = { focus = BRE_army_infantry }
 			mutually_exclusive = { focus = BRE_army_infantry_gb }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
-				
+				add_ideas = BRE_infantry_sf
 			}
 		}
 
@@ -909,12 +932,12 @@ focus_tree = {
 			x = -1
 			y = 1
 			relative_position_id = BRE_army_infantry
-			cost = 10
+			cost = 5
 			prerequisite = { focus = BRE_army_infantry }
 			mutually_exclusive = { focus = BRE_army_infantry_sf }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
-				
+				add_ideas = BRE_infantry_gb
 			}
 		}
 
@@ -924,7 +947,7 @@ focus_tree = {
 			x = 0
 			y = 1
 			relative_position_id = BRE_army_infantry_sf
-			cost = 10
+			cost = 5
 			prerequisite = { focus = BRE_army_infantry_sf }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
@@ -938,7 +961,7 @@ focus_tree = {
 			x = 0
 			y = 1
 			relative_position_id = BRE_army_infantry_sf_artbonus
-			cost = 10
+			cost = 5
 			prerequisite = { focus = BRE_army_infantry_sf_artbonus }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
@@ -952,7 +975,7 @@ focus_tree = {
 			x = 0
 			y = 1
 			relative_position_id = BRE_army_infantry_gb
-			cost = 10
+			cost = 5
 			prerequisite = { focus = BRE_army_infantry_gb }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
@@ -966,7 +989,7 @@ focus_tree = {
 			x = 0
 			y = 1
 			relative_position_id = BRE_army_infantry_gb_engineer
-			cost = 10
+			cost = 5
 			prerequisite = { focus = BRE_army_infantry_gb_engineer }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
