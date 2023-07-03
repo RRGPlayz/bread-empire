@@ -232,6 +232,24 @@ ideas = {
 	}
 
 	country = {
+		BRE_infantry_gb2 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_infantry_attack_factor = 0.05
+				army_infantry_defence_factor = 0.05
+				dig_in_speed_factor = 0.05
+				max_dig_in_factor = 0.05
+			}
+		}
+	}
+
+	country = {
 		BRE_infantry_sf = {
 			allowed = {
 				always = no

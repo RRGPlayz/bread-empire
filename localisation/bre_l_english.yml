@@ -20,6 +20,7 @@ BRE_investinradar:0 "Invest in 'RADAR'"
 BRE_investinradar_desc:0 "Our Breadists have come up with an idea named 'RADAR', which will allow us to detect the enemy without risking life, we should invest in this technology to prevent any opposition from destroying our Bread."
 BRE_construct_new_docks:0 "Construct new docks"
 BRE_construct_new_docks_desc:0 "With the large amount of bread we are producing, we require more extensive docks, which can allow us to create more convoys to export our Bread!"
+BRE_radar_bonus:0 "RADAR Tech Research Bonus"
 
 #Military Tree
 BRE_form_military:0 "Begin the formation of the Bread Military"
@@ -31,3 +32,8 @@ BRE_airforce_structure_desc:0 "With the basic formation of the military complete
 BRE_navy_structure:0 "Structurize the Navy"
 BRE_navy_structure_desc:0 "With the basic formation of the military complete, it is time to give the navy a basic structure."
 BRE_create_unit_bread_marines_tt:0 "Gain two trained and equipped units of Bread Marines."
+BRE_create_unit_tanks_tt:0 "Gain two trained and equipped units of Gluten Brigades."
+BRE_armor_bonus:0 "Improve our Armored Tanks"
+fib_bonus:0 "Fleet-in-Being Doctrine Advancement"
+trade_interdiction_bonus:0 "Trade Interdiction Doctrine Advancement"
+BRE_gb_bonus:0 "Grand Battleplan Doctrine Advancement"

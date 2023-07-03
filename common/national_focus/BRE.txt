@@ -259,6 +259,7 @@ focus_tree = {
 		prerequisite = { focus = BRE_opennewbreadlabs  }
 		completion_reward = {
 			add_tech_bonus = {
+				name = BRE_radar_bonus
 			    category = radar_tech
 				bonus = 0.5
 			    uses = 1
@@ -846,7 +847,7 @@ focus_tree = {
 			completion_reward = {
 				add_ideas = BRE_armor_focus
 				add_tech_bonus = {
-					name = SOV_superior_war_machines
+					name = BRE_armor_bonus
 					bonus = 0.75
 					uses = 2
 					category = armor
@@ -865,7 +866,6 @@ focus_tree = {
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
 				custom_effect_tooltip = BRE_armor_bonus_tt
-
 				hidden_effect = {
 					swap_ideas = {
 						remove_idea = BRE_armor_focus
@@ -907,7 +907,34 @@ focus_tree = {
 			prerequisite = { focus = BRE_army_armor_production }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
-				
+				custom_effect_tooltip = BRE_create_unit_tanks_tt
+				hidden_effect = {
+					division_template = {
+						name = "Gluten-Division"
+					
+						regiments = {
+							light_armor = { x = 0 y = 0 }
+							light_armor = { x = 0 y = 1 }
+							light_armor = { x = 1 y = 0 }
+							light_armor = { x = 1 y = 1 }
+							motorized = { x = 2 y = 0 }
+							motorized = { x = 2 y = 1 }
+						}
+						support = {
+							mot_recon = { x = 0 y = 0 }
+							engineer = { x = 0 y = 1 }
+							artillery = { x = 0 y = 2 }
+						}
+					}
+					random_owned_controlled_state = {
+						prioritize = { 7388 }
+					create_unit = {
+						division = "division_template = \"Gluten-Division\" start_experience_factor = 0.2 start_equipment_factor = 1.0"
+						owner = ROOT
+						count = 2
+					}
+				}
+				}
 			}
 		}
 
@@ -979,7 +1006,13 @@ focus_tree = {
 			prerequisite = { focus = BRE_army_infantry_gb }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
-				
+				custom_effect_tooltip = BRE_gb_bonus_tt
+				hidden_effect = {
+				swap_ideas = {
+					remove_idea = BRE_infantry_gb
+					add_idea = BRE_infantry_gb2
+				}
+			}
 			}
 		}
 
@@ -993,7 +1026,12 @@ focus_tree = {
 			prerequisite = { focus = BRE_army_infantry_gb_engineer }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
-				
+				add_doctrine_cost_reduction = {
+					name = BRE_gb_bonus
+					cost_reduction = 0.5
+					uses = 2
+					category = cat_superior_firepower
+				}
 			}
 		}
 
