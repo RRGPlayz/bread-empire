@@ -830,7 +830,7 @@ focus_tree = {
 			mutually_exclusive = { focus = BRE_army_armor }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
-				
+				army_experience = 75
 			}
 		}
 
@@ -978,7 +978,13 @@ focus_tree = {
 			prerequisite = { focus = BRE_army_infantry_sf }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
-				
+				custom_effect_tooltip = BRE_sf_bonus_tt
+				hidden_effect = {
+					swap_ideas = {
+						remove_idea = BRE_infantry_sf
+						add_idea = BRE_infantry_sf2
+					}
+				}
 			}
 		}
 
@@ -992,7 +998,12 @@ focus_tree = {
 			prerequisite = { focus = BRE_army_infantry_sf_artbonus }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
-				
+				add_doctrine_cost_reduction = {
+					name = BRE_sf_bonus
+					cost_reduction = 0.5
+					uses = 2
+					category = cat_superior_firepower
+				}
 			}
 		}
 
@@ -1030,7 +1041,7 @@ focus_tree = {
 					name = BRE_gb_bonus
 					cost_reduction = 0.5
 					uses = 2
-					category = cat_superior_firepower
+					category = cat_grand_battle_plan
 				}
 			}
 		}
