@@ -1056,7 +1056,27 @@ focus_tree = {
 			prerequisite = { focus = BRE_army_armor_template focus = BRE_army_infantry_gb_infantry focus = BRE_army_infantry_sf_doctrine }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
-				
+				if = {
+					limit = { has_idea = BRE_infantry_gb2 }
+					swap_ideas = {
+						remove_idea = BRE_infantry_gb2
+						add_idea = BRE_infantry_gb3
+					}
+				}
+				if = {
+					limit = { has_idea = BRE_infantry_sf2 }
+					swap_ideas = {
+						remove_idea = BRE_infantry_sf2
+						add_idea = BRE_infantry_sf3
+					}
+				}
+				if = {
+					limit = { has_idea = BRE_armor_focus2 }
+					swap_ideas = {
+						remove_idea = BRE_armor_focus2
+						add_idea = BRE_armor_focus3
+					}
+				}
 			}
 		}
 
