@@ -59,4 +59,9 @@ spriteTypes = {
 		name = "GFX_character_panther1"
 		textureFile = "gfx/leaders/panther.dds"
 	}
+
+	spriteType = {
+		name = "GFX_character_baritone"
+		textureFile = "gfx/interface/ideas/benjabrother.dds"
+	}
 }
