@@ -40,3 +40,75 @@ BRE_gb_bonus:0 "Grand Battleplan Doctrine Advancement"
 BRE_sf_bonus:0 "Superior Firepower Doctrine Advancement"
 cas_doctrine:0 "Battlefield Support Doctrine Advancement"
 BRE_fighter_bonus:0 "Fighter Research Bonus"
+BRE_air_decide:0 "Direction of the Airforce"
+BRE_air_decide_desc:0 "With the basic structure of our Airforce complete, it is now time for us to choose a direction for our doctrine, either controlling the skies, or having the Airforce focus on supporting our troops on the ground."
+BRE_air_superiority:0 "Focus on Controlling The Skies"
+BRE_air_superiority_desc:0 "Ultimately, it is the safer choice to focus on keeping the skies clear of any who oppose our great nation."
+BRE_air_sup_bonus:0 "Improve our Focus on Air Superiority"
+BRE_air_sup_bonus_desc:0 "With our focus on controlling the sky, we should improve the manufacturing process of our fighters, allowing us to produce more!"
+BRE_air_sup_research:0 "Improve our Fighters"
+BRE_air_sup_research_desc:0 "With the manufacturing process improved, we should now begin the thought and creation of new models of aircraft."
+BRE_air_cas:0 "Focus on Supporting our Ground Troops"
+BRE_air_cas_desc:0 "Ultimately, it would prove more useful to our ground troops if the Airforce focused on supporting them."
+BRE_air_cas_bonus:0 "Improve our Focus on Ground Support"
+BRE_air_cas_bonus_desc:0 "We should improve the production of our CAS aircraft, allowing us to produce more aircraft to overwhelm the troops of those who oppose us."
+BRE_air_cas_doctrine:0 "Create New Strategies"
+BRE_air_cas_doctrine_desc:0 "We should have our best pilots make suggestions on how we can improve our doctrine, which in turn allows the pilots to be more efficient in the skies."
+BRE_air_bases:0 "Upgrade our Airbases"
+BRE_air_bases_desc:0 "We should upgrade the previously owned US airbases, allowing us to store more aircraft in those locations."
+BRE_air_radar:0 "Build the Bread-dar"
+BRE_air_radar_desc:0 "With the recent advancement of RADAR Technology, we will construct what our R&D Department call the 'Bread-dar'."
+BRE_air_anti:0 "Construct Anti-Bread Emplacements"
+BRE_air_anti_desc:0 "With our independence, it also comes with the risk of invasion, and with that invasion comes enemy aircraft, which if we cannot overpower them, leaves us completely defenseless in the skies above our glorious nation, we should construct some Anti-Bread emplacements to obstruct the enemy air assets."
+BRE_air_bread:0 "Fill the Skies with Bread!"
+BRE_air_bread_desc:0 "With the advancement of our Airforce, we will attempt to fill the skies with our Breadcraft, either through overwhelming force against enemy ground troops, or against enemy air assets!"
+BRE_army_recruit:0 "Recruit new Associates"
+
+BRE_army_armor:0 "Focus on the Gluten Brigades"
+
+BRE_army_armor_bonus:0 "Improve the R&D on the Gluten Brigades"
+
+BRE_army_armor_production:0 "Advance the production of Gluten (Tanks)"
+
+BRE_army_armor_template:0 "Unleash the Gluten Brigades!"
+
+BRE_army_infantry:0 "Focus on the Baguette Divisions"
+
+BRE_army_infantry_gb:0 "Shift to Sourdough Warfare"
+
+BRE_army_infantry_gb_engineer:0 "Dig Those Trenches Deeper!"
+
+BRE_army_infantry_gb_infantry:0 "Advance our Sourdough Doctrine"
+
+BRE_army_infantry_sf:0 "Shift to Superior Doughball Cannons"
+
+BRE_army_infantry_sf_artbonus:0 "Fire those Dougballs!"
+
+BRE_army_infantry_sf_doctrine:0 "Advance our Doughball Doctrine"
+
+BRE_army_march:0 "March of the Bread Brigade"
+
+BRE_navy_benja:0 "Recruit a Naval Specialist"
+
+BRE_navy_fib:0 "Focus on an Ocean-Spanning Navy"
+
+BRE_navy_fib_bonus:0 "Strategise new ideas for our Naval Doctrine"
+
+BRE_navy_fib_construction:0 "Approve new means of production for our Fleet"
+
+BRE_navy_fib_commission:0 "Commission new Dockyards"
+
+BRE_navy_marine:0 "Launch the Bread Marines"
+
+BRE_navy_trade:0 "Focus on an Underwater Force"
+
+BRE_navy_trade_bonus:0 "Approve New Strategies for our Underwater Force"
+
+BRE_navy_trade_construction:0 "Create New Ways of Production"
+
+BRE_navy_trade_mines:0 "Efficient minelaying strategies"
+
+BRE_navy_waves:0 "Baguettes Rule the Waves!"
+
+BRE_pax_breadannica:0 "Pax Breadannica"
+BRE_pax_breadannica_desc:0 "Glory to the Bread Empire!"
