@@ -405,6 +405,8 @@ focus_tree = {
 			search_filters = {FOCUS_FILTER_AIR_XP}
 			completion_reward = {
 				air_experience = 75
+				custom_effect_tooltip = available_chief_of_airforce
+				show_ideas_tooltip = deezo
 			}
 		}
 
@@ -419,7 +421,7 @@ focus_tree = {
 			mutually_exclusive = { focus = BRE_air_superiority }
 			search_filters = {FOCUS_FILTER_AIR_XP}
 			completion_reward = {
-				
+				add_ideas = BRE_cas_focus
 			}
 		}
 
@@ -434,7 +436,7 @@ focus_tree = {
 			mutually_exclusive = { focus = BRE_air_cas }
 			search_filters = {FOCUS_FILTER_AIR_XP}
 			completion_reward = {
-				
+				add_ideas = BRE_sup_focus
 			}
 		}
 
@@ -448,7 +450,13 @@ focus_tree = {
 			prerequisite = { focus = BRE_air_decide }
 			search_filters = {FOCUS_FILTER_AIR_XP}
 			completion_reward = {
-				
+				366 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
 			}
 		}
 
@@ -462,7 +470,13 @@ focus_tree = {
 			prerequisite = { focus = BRE_air_bases }
 			search_filters = {FOCUS_FILTER_AIR_XP}
 			completion_reward = {
-				
+				366 = {
+					add_building_construction = {
+						type = anti_air_building
+						level = 3
+						instant_build = yes
+					}
+				}
 			}
 		}
 
@@ -475,36 +489,34 @@ focus_tree = {
 			cost = 4
 			prerequisite = { focus = BRE_air_bases }
 			search_filters = {FOCUS_FILTER_AIR_XP}
-			completion_reward = {
-				
+			available = {
+				has_tech = radio_detection
 			}
-		}
-
-		focus = {
-			id = BRE_air_cas_bombs
-			icon = GFX_goal_unknown
-			x = -1
-			y = 1
-			relative_position_id = BRE_air_cas
-			cost = 5
-			prerequisite = { focus = BRE_air_cas }
-			search_filters = {FOCUS_FILTER_AIR_XP}
 			completion_reward = {
-				
+				366 = {
+					add_building_construction = {
+						type = radar_station
+						level = 1
+						instant_build = yes
+					}
+				}
 			}
 		}
 
 		focus = {
 			id = BRE_air_cas_bonus
 			icon = GFX_goal_unknown
-			x = 1
+			x = 0
 			y = 1
 			relative_position_id = BRE_air_cas
 			cost = 5
 			prerequisite = { focus = BRE_air_cas }
 			search_filters = {FOCUS_FILTER_AIR_XP}
 			completion_reward = {
-				
+					swap_ideas = {
+						remove_idea = BRE_cas_focus
+						add_idea = BRE_cas_focus2
+					}
 			}
 		}
 
@@ -518,7 +530,10 @@ focus_tree = {
 			prerequisite = { focus = BRE_air_superiority }
 			search_filters = {FOCUS_FILTER_AIR_XP}
 			completion_reward = {
-				
+				swap_ideas = {
+					remove_idea = BRE_sup_focus
+					add_idea = BRE_sup_focus2
+				}
 			}
 		}
 
@@ -532,21 +547,31 @@ focus_tree = {
 			prerequisite = { focus = BRE_air_sup_bonus }
 			search_filters = {FOCUS_FILTER_AIR_XP}
 			completion_reward = {
-				
+				add_tech_bonus = {
+					name = BRE_fighter_bonus
+					bonus = 0.75
+					uses = 2
+					category = light_fighter
+				}
 			}
 		}
 
 		focus = {
 			id = BRE_air_cas_doctrine
 			icon = GFX_goal_unknown
-			x = 1
+			x = 0
 			y = 1
-			relative_position_id = BRE_air_cas_bombs
+			relative_position_id = BRE_air_cas_bonus
 			cost = 5
-			prerequisite = { focus = BRE_air_cas_bombs focus = BRE_air_cas_bonus }
+			prerequisite = { focus = BRE_air_cas_bonus }
 			search_filters = {FOCUS_FILTER_AIR_XP}
 			completion_reward = {
-				
+				add_doctrine_cost_reduction = {
+					name = cas_doctrine
+					cost_reduction = 0.5
+					uses = 1
+					category = cat_battlefield_support
+				}
 			}
 		}
 
@@ -561,6 +586,21 @@ focus_tree = {
 			search_filters = {FOCUS_FILTER_AIR_XP}
 			completion_reward = {
 				air_experience = 75
+				custom_effect_tooltip = BRE_air_bread_tt
+					if = {
+						limit = { has_idea = BRE_sup_focus2 }
+						swap_ideas = {
+							remove_idea = BRE_sup_focus2
+							add_idea = BRE_sup_focus3
+						}
+					}
+					if = {
+						limit = { has_idea = BRE_cas_focus2 }
+						swap_ideas = {
+							remove_idea = BRE_cas_focus2
+							add_idea = BRE_cas_focus3
+						}
+					}
 			}
 		}
 
@@ -782,8 +822,8 @@ focus_tree = {
 			prerequisite = { focus = BRE_navy_marine }
 			search_filters = {FOCUS_FILTER_NAVY_XP}
 			completion_reward = {
+				navy_experience = 75
 				add_ideas = BRE_navy_waves
-				air_experience = 75
 				random_owned_controlled_state = {
 					limit = {
 					free_building_slots = {
@@ -1056,6 +1096,8 @@ focus_tree = {
 			prerequisite = { focus = BRE_army_armor_template focus = BRE_army_infantry_gb_infantry focus = BRE_army_infantry_sf_doctrine }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
+				army_experience = 75
+				custom_effect_tooltip = BRE_march_tt
 				if = {
 					limit = { has_idea = BRE_infantry_gb2 }
 					swap_ideas = {
@@ -1091,14 +1133,12 @@ focus_tree = {
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
 				show_unit_leaders_tooltip = BRE_oscar
-
 				custom_effect_tooltip = available_military_high_command
 				show_ideas_tooltip = max
-				custom_effect_tooltip = available_chief_of_airforce
-				show_ideas_tooltip = deezo
 			}
 		}
 
+		# Final Military Focus
 		focus = {
 			id = BRE_pax_breadannica
 			icon = GFX_goal_unknown
@@ -1111,7 +1151,7 @@ focus_tree = {
 			prerequisite = { focus = BRE_navy_waves }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
 			completion_reward = {
-				
+				add_ideas = BRE_pax_breadannica
 			}
 		}
 }

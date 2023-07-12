@@ -18,6 +18,9 @@ BRE_infantry_gb:0 "Grand Battleplan Focus"
 BRE_infantry_sf:0 "Superior Firepower Focus"
 BRE_modify_sf_bonus:0 "Modify §Y$BRE_infantry_sf$§! by"
 BRE_sf_bonus_tt:1 "$BRE_modify_sf_bonus$ \n$MODIFIERS_ARMY_ARTILLERY_ATTACK_FACTOR$: §G+5%§! \n$MODIFIERS_ARMY_ARTILLERY_DEFENCE_FACTOR$: §G+5%§!\n"
+BRE_modify_cas_bonus:1 "$BRE_modify_armor_bonus$ \n$armor_research$: §G+10%§! \n\n"
+BRE_march_tt: "The effects of this focus will change based on if you chose, Armor, Superior Firepower or Grand Battleplan focus."
+BRE_air_bread_tt: "The effects of this focus will change based on if you chose Air Superiority or CAS Focus."
 
 ##Descriptions
 BRE_independence_purchase_desc:0 "In order for us to thrive, our Bread Emperor (Persuade) paid off the President."

@@ -237,7 +237,7 @@ the_bread_emperor = {
 					original_tag = BRE
 				}
 				available = {
-					has_completed_focus = BRE_army_recruit
+					has_completed_focus = BRE_air_decide
 				}
 				traits = {
 					air_chief_ground_support_2
