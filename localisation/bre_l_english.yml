@@ -81,34 +81,34 @@ BRE_army_infantry_gb_engineer_desc:0 "With the focus on the infantry units, they
 BRE_army_infantry_gb_infantry:0 "Advance our Sourdough Doctrine"
 BRE_army_infantry_gb_infantry_desc:0 "With our focus being on infantry, we should also advance our doctrine with ideas based on infantry."
 BRE_army_infantry_sf:0 "Shift to Superior Doughball Cannons"
-BRE_army_infantry_sf_desc:0 ""
+BRE_army_infantry_sf_desc:0 "Instead of focusing on mainly infantry units, we should instead focus on our 'Doughball Cannons', which can provide superior firepower against the enemy, and overwhelm them with barrages from afar."
 BRE_army_infantry_sf_artbonus:0 "Fire those Dougballs!"
-
+BRE_army_infantry_sf_artbonus_desc:0 "Instead of using ineffective shells, we should use 'Doughballs' for ammo, which (somehow) improve the damage we can do to the enemy, while also providing us with a better defence in combat."
 BRE_army_infantry_sf_doctrine:0 "Advance our Doughball Doctrine"
-
+BRE_army_infantry_sf_doctrine_desc:0 "We should now improve our doctrine, while also giving our generals and high command some breathing room for new ideas (Instead of attempting to commit treason)."
 BRE_army_march:0 "March of the Bread Brigade"
-
+BRE_army_march_desc:0 "Into the Motherland The Bread Army Marched."
 BRE_navy_benja:0 "Recruit a Naval Specialist"
-
+BRE_navy_benja_desc:0 "Our Glorious Bread Emperor has recommended to us what he calls a 'Naval Specialist', we shall recruit this so-called specialist and see what they can do."
 BRE_navy_fib:0 "Focus on an Ocean-Spanning Navy"
-
+BRE_navy_fib_desc:0 "Instead of a small and elite naval force, we should focus on having a large one, that can overwhelm the enemy."
 BRE_navy_fib_bonus:0 "Strategise new ideas for our Naval Doctrine"
-
+BRE_navy_fib_bonus_desc:0 "To improve our naval doctrine, would improve our naval forces."
 BRE_navy_fib_construction:0 "Approve new means of production for our Fleet"
-
+BRE_navy_fib_construction_desc:0 "If we approve new ways of producing our ships which are more optimized, it will allow our workers to construct them quicker."
 BRE_navy_fib_commission:0 "Commission new Dockyards"
-
+BRE_navy_fib_comission_desc:0 "To increase the amount of ships we produce, we will create a small board under the High Command to coordinate construction of new dockyards."
 BRE_navy_marine:0 "Launch the Bread Marines"
-
+BRE_navy_marine_desc:0 "Our Naval Naval specialist, Benja, has been training an effective unit of 'Bread Marines', which we can use for naval operations."
 BRE_navy_trade:0 "Focus on an Underwater Force"
-
+BRE_navy_trade_desc:0 "Instead of focusing on a large overwhelming force, we should instead create an underwater force, consisting of submarines. From this it means we can prevent the enemy from supplying their troops, and starve them."
 BRE_navy_trade_bonus:0 "Approve New Strategies for our Underwater Force"
-
+BRE_navy_trade_bonus_desc:0 "If we approve some new theories, we can allow our naval forces to operate better."
 BRE_navy_trade_construction:0 "Create New Ways of Production"
-
+BRE_navy_trade_construction_desc:0 "By creating new ways to produce our submarines, we can create them more efficiently and for a cheaper price."
 BRE_navy_trade_mines:0 "Efficient minelaying strategies"
-
+BRE_navy_trade_mines_desc:0 "Instead of giving the submarine crew training guides / manuals, we can instead actually train them, using proper equipment."
 BRE_navy_waves:0 "Baguettes Rule the Waves!"
-
+BRE_navy_waves_desc:0 "Rule, Breadtanica! Rule the waves, Baguettes never will be slaves."
 BRE_pax_breadannica:0 "Pax Breadannica"
 BRE_pax_breadannica_desc:0 "Glory to the Bread Empire!"
