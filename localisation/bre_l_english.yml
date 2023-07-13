@@ -63,25 +63,25 @@ BRE_air_anti_desc:0 "With our independence, it also comes with the risk of invas
 BRE_air_bread:0 "Fill the Skies with Bread!"
 BRE_air_bread_desc:0 "With the advancement of our Airforce, we will attempt to fill the skies with our Breadcraft, either through overwhelming force against enemy ground troops, or against enemy air assets!"
 BRE_army_recruit:0 "Recruit new Associates"
-
+BRE_army_recruit_desc:0 "With the basic structure of the army complete, we should hire some trusted 'Associates' of Persuade, who tells us that these 'Associates' are military experts and strategists, however time will tell us if this is true or not."
 BRE_army_armor:0 "Focus on the Gluten Brigades"
-
+BRE_army_armor_desc:0 "Our High Command has made the decision to focus the army on what they call 'Gluten Brigades', which from what we understand mainly consists of armored units."
 BRE_army_armor_bonus:0 "Improve the R&D on the Gluten Brigades"
-
+BRE_army_armor_bonus_desc:0 "With the basic development of our Gluten Brigades going well, we should provide more funding to the R&D section for these units, which in turn will improve the efficiency of their research."
 BRE_army_armor_production:0 "Advance the production of Gluten (Tanks)"
-
+BRE_army_armor_productions_desc:0 "As we now have the basics complete, it is time to improve the manufacturing of the armored units we will use for the Gluten Brigades."
 BRE_army_armor_template:0 "Unleash the Gluten Brigades!"
-
+BRE_army_armor_template_desc:0 "The preparations are complete, it is time to unleash the Gluten Brigades, may nothing stand in their way!"
 BRE_army_infantry:0 "Focus on the Baguette Divisions"
-
+BRE_army_infantry_desc:0 "Our High Command has made the decision to focus on what they call 'Baguette Divisions', which consists of mainly infantry units, as well as this we now have another choice of focusing on these pure infantry units, or introducing what we call 'Doughball Cannons', which are classified as artillery."
 BRE_army_infantry_gb:0 "Shift to Sourdough Warfare"
-
+BRE_army_infantry_gb_desc:0 "We have made the decision to focus on what we decided to call 'Sourdough Warfare', which is mainly infantry units, with some support from the 'Doughball Cannons'"
 BRE_army_infantry_gb_engineer:0 "Dig Those Trenches Deeper!"
-
+BRE_army_infantry_gb_engineer_desc:0 "With the focus on the infantry units, they have been outfitted with an engineer company to provide them a solid defence against enemy units, and with these comes a new set of orders to dig them trenches deeper for more safety!"
 BRE_army_infantry_gb_infantry:0 "Advance our Sourdough Doctrine"
-
+BRE_army_infantry_gb_infantry_desc:0 "With our focus being on infantry, we should also advance our doctrine with ideas based on infantry."
 BRE_army_infantry_sf:0 "Shift to Superior Doughball Cannons"
-
+BRE_army_infantry_sf_desc:0 ""
 BRE_army_infantry_sf_artbonus:0 "Fire those Dougballs!"
 
 BRE_army_infantry_sf_doctrine:0 "Advance our Doughball Doctrine"
