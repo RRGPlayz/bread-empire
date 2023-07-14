@@ -69,7 +69,7 @@ BRE_army_armor_desc:0 "Our High Command has made the decision to focus the army 
 BRE_army_armor_bonus:0 "Improve the R&D on the Gluten Brigades"
 BRE_army_armor_bonus_desc:0 "With the basic development of our Gluten Brigades going well, we should provide more funding to the R&D section for these units, which in turn will improve the efficiency of their research."
 BRE_army_armor_production:0 "Advance the production of Gluten (Tanks)"
-BRE_army_armor_productions_desc:0 "As we now have the basics complete, it is time to improve the manufacturing of the armored units we will use for the Gluten Brigades."
+BRE_army_armor_production_desc:0 "As we now have the basics complete, it is time to improve the manufacturing of the armored units we will use for the Gluten Brigades."
 BRE_army_armor_template:0 "Unleash the Gluten Brigades!"
 BRE_army_armor_template_desc:0 "The preparations are complete, it is time to unleash the Gluten Brigades, may nothing stand in their way!"
 BRE_army_infantry:0 "Focus on the Baguette Divisions"

@@ -317,7 +317,7 @@ focus_tree = {
 		#Military Tree Start
 		focus = {
 			id = BRE_form_military
-			icon = GFX_goal_unknown
+			icon = GFX_goal_form_military
 			x = 25
 			y = 0
 			cost = 10
@@ -365,7 +365,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_airforce_structure
-			icon = GFX_goal_unknown
+			icon = GFX_goal_form_airforce
 			x = -10
 			y = 1
 			relative_position_id = BRE_form_military
@@ -380,7 +380,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_navy_structure
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_navy_anti_submarine
 			x = 10
 			y = 1
 			relative_position_id = BRE_form_military
@@ -396,7 +396,7 @@ focus_tree = {
 		#Airforce
 		focus = {
 			id = BRE_air_decide
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_build_airforce
 			x = 0
 			y = 1
 			relative_position_id = BRE_airforce_structure
@@ -412,7 +412,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_air_cas
-			icon = GFX_goal_unknown
+			icon = GFX_focus_generic_tank_air_support
 			x = 3
 			y = 1
 			relative_position_id = BRE_air_decide
@@ -427,7 +427,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_air_superiority
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_
 			x = -3
 			y = 1
 			relative_position_id = BRE_air_decide
@@ -442,7 +442,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_air_bases
-			icon = GFX_goal_unknown
+			icon = GFX_goal_air_bases
 			x = 0
 			y = 2
 			relative_position_id = BRE_air_decide
@@ -462,7 +462,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_air_anti
-			icon = GFX_goal_unknown
+			icon = GFX_focus_generic_air_defense
 			x = 1
 			y = 1
 			relative_position_id = BRE_air_bases
@@ -482,7 +482,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_air_radar
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_radar
 			x = -1
 			y = 1
 			relative_position_id = BRE_air_bases
@@ -505,7 +505,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_air_cas_bonus
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_air_production
 			x = 0
 			y = 1
 			relative_position_id = BRE_air_cas
@@ -522,7 +522,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_air_sup_bonus
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_air_production
 			x = 0
 			y = 1
 			relative_position_id = BRE_air_superiority	
@@ -539,7 +539,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_air_sup_research
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_air_fighter2
 			x = 0
 			y = 1
 			relative_position_id = BRE_air_sup_bonus
@@ -558,7 +558,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_air_cas_doctrine
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_air_doctrine
 			x = 0
 			y = 1
 			relative_position_id = BRE_air_cas_bonus
@@ -1138,7 +1138,6 @@ focus_tree = {
 			}
 		}
 
-		# Final Military Focus
 		focus = {
 			id = BRE_pax_breadannica
 			icon = GFX_goal_unknown
@@ -1154,4 +1153,7 @@ focus_tree = {
 				add_ideas = BRE_pax_breadannica
 			}
 		}
+		#Military Tree End
+
+		#Politics Tree Start
 }

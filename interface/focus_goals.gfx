@@ -10,4 +10,18 @@ spriteTypes = {
 		textureFile = gfx/interface/goals/focus_BRE_marines.dds
 	}
 
+	spriteType = {
+		name = GFX_goal_form_airforce
+		textureFile = gfx/interface/goals/focus_form_airforce.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_air_bases
+		textureFile = gfx/interface/goals/focus_air_bases.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_form_military
+		textureFile = gfx/interface/goals/focus_form_military.dds
+	}
 }
