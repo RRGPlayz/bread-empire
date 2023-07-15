@@ -380,7 +380,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_navy_structure
-			icon = GFX_goal_generic_navy_anti_submarine
+			icon = GFX_goal_generic_navy_cruiser
 			x = 10
 			y = 1
 			relative_position_id = BRE_form_military
@@ -607,7 +607,7 @@ focus_tree = {
 		#Navy
 		focus = {
 			id = BRE_navy_benja
-			icon = GFX_goal_unknown
+			icon = GFX_goal_navy_benja
 			x = 0
 			y = 1
 			relative_position_id = BRE_navy_structure
@@ -623,7 +623,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_navy_fib
-			icon = GFX_focus_generic_navy_battleship2
+			icon = GFX_goal_generic_navy_battleship
 			x = -3
 			y = 1
 			relative_position_id = BRE_navy_benja
@@ -687,7 +687,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_navy_fib_bonus
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_navy_doctrines_tactics
 			x = -1
 			y = 1
 			relative_position_id = BRE_navy_fib
@@ -706,7 +706,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_navy_fib_construction
-			icon = GFX_goal_unknown
+			icon = GFX_goal_fib_construction
 			x = 1
 			y = 1
 			relative_position_id = BRE_navy_fib
@@ -720,7 +720,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_navy_fib_commission
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_production2
 			x = 1
 			y = 1
 			relative_position_id = BRE_navy_fib_bonus
@@ -779,7 +779,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_navy_trade_construction
-			icon = GFX_goal_unknown
+			icon = GFX_goal_navy_construction
 			x = 1
 			y = 1
 			relative_position_id = BRE_navy_trade
@@ -793,7 +793,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_navy_trade_mines
-			icon = GFX_goal_unknown
+			icon = GFX_focus_generic_mine_warfare
 			x = 1
 			y = 1
 			relative_position_id = BRE_navy_trade_bonus

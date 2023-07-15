@@ -24,4 +24,19 @@ spriteTypes = {
 		name = GFX_goal_form_military
 		textureFile = gfx/interface/goals/focus_form_military.dds
 	}
+
+	spriteType = {
+		name = GFX_goal_navy_benja
+		textureFile = gfx/interface/goals/focus_navy_benja.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_navy_construction
+		textureFile = gfx/interface/goals/focus_navy_construction.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_fib_construction
+		textureFile = gfx/interface/goals/focus_fib_construction.dds
+	}
 }
