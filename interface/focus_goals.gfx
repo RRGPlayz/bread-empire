@@ -39,4 +39,79 @@ spriteTypes = {
 		name = GFX_goal_fib_construction
 		textureFile = gfx/interface/goals/focus_fib_construction.dds
 	}
+
+	spriteType = {
+		name = GFX_goal_navy_trade
+		textureFile = gfx/interface/goals/focus_navy_trade.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_navy_waves
+		textureFile = gfx/interface/goals/focus_navy_waves.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_armor_focus
+		textureFile = gfx/interface/goals/focus_armor_focus.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_armor_bonus
+		textureFile = gfx/interface/goals/focus_armor_bonus.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_armor_production
+		textureFile = gfx/interface/goals/focus_armor_production.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_armor_template
+		textureFile = gfx/interface/goals/focus_armor_template.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_army_sf
+		textureFile = gfx/interface/goals/focus_army_sf.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_army_sf_art
+		textureFile = gfx/interface/goals/focus_army_sf_art.dds
+	}
+	
+	spriteType = {
+		name = GFX_goal_army_sf_bonus
+		textureFile = gfx/interface/goals/focus_army_sf_bonus.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_army_gb
+		textureFile = gfx/interface/goals/focus_army_gb.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_army_gb_eng
+		textureFile = gfx/interface/goals/focus_army_gb_eng.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_army_gb_bonus
+		textureFile = gfx/interface/goals/focus_army_gb_bonus.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_army_march
+		textureFile = gfx/interface/goals/focus_army_march.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_army_recruit
+		textureFile = gfx/interface/goals/focus_army_recruit.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_pax_breadannica
+		textureFile = gfx/interface/goals/focus_pax_breadannica.dds
+	}
 }

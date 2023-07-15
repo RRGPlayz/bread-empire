@@ -427,7 +427,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_air_superiority
-			icon = GFX_goal_generic_
+			icon = GFX_goal_generic_air_fighter
 			x = -3
 			y = 1
 			relative_position_id = BRE_air_decide
@@ -577,7 +577,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_air_bread
-			icon = GFX_goal_unknown
+			icon = GFX_focus_generic_aircraft_production
 			x = 0
 			y = 4
 			relative_position_id = BRE_air_decide
@@ -760,7 +760,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_navy_trade_bonus
-			icon = GFX_goal_unknown
+			icon = GFX_goal_navy_trade
 			x = -1
 			y = 1
 			relative_position_id = BRE_navy_trade
@@ -813,7 +813,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_navy_waves
-			icon = GFX_goal_unknown
+			icon = GFX_goal_navy_waves
 			x = 0
 			y = 4
 			relative_position_id = BRE_navy_benja
@@ -861,7 +861,7 @@ focus_tree = {
 		#Army
 		focus = {
 			id = BRE_army_infantry
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_army_doctrines
 			x = 3
 			y = 1
 			relative_position_id = BRE_army_structure
@@ -876,7 +876,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_army_armor
-			icon = GFX_goal_unknown
+			icon = GFX_goal_armor_focus
 			x = -3
 			y = 1
 			relative_position_id = BRE_army_structure
@@ -897,7 +897,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_army_armor_bonus
-			icon = GFX_goal_unknown
+			icon = GFX_goal_armor_bonus
 			x = 0
 			y = 1
 			relative_position_id = BRE_army_armor
@@ -917,7 +917,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_army_armor_production
-			icon = GFX_goal_unknown
+			icon = GFX_goal_armor_production
 			x = 0
 			y = 1
 			relative_position_id = BRE_army_armor_bonus
@@ -939,7 +939,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_army_armor_template
-			icon = GFX_goal_unknown
+			icon = GFX_goal_armor_template
 			x = 0
 			y = 1
 			relative_position_id = BRE_army_armor_production
@@ -980,7 +980,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_army_infantry_sf
-			icon = GFX_goal_unknown
+			icon = GFX_goal_army_sf
 			x = 1
 			y = 1
 			relative_position_id = BRE_army_infantry
@@ -995,7 +995,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_army_infantry_gb
-			icon = GFX_goal_unknown
+			icon = GFX_goal_army_gb
 			x = -1
 			y = 1
 			relative_position_id = BRE_army_infantry
@@ -1010,7 +1010,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_army_infantry_sf_artbonus
-			icon = GFX_goal_unknown
+			icon = GFX_goal_army_sf_art
 			x = 0
 			y = 1
 			relative_position_id = BRE_army_infantry_sf
@@ -1030,7 +1030,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_army_infantry_sf_doctrine
-			icon = GFX_goal_unknown
+			icon = GFX_goal_army_sf_bonus
 			x = 0
 			y = 1
 			relative_position_id = BRE_army_infantry_sf_artbonus
@@ -1049,7 +1049,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_army_infantry_gb_engineer
-			icon = GFX_goal_unknown
+			icon = GFX_goal_army_gb_eng
 			x = 0
 			y = 1
 			relative_position_id = BRE_army_infantry_gb
@@ -1069,7 +1069,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_army_infantry_gb_infantry
-			icon = GFX_goal_unknown
+			icon = GFX_goal_army_gb_bonus
 			x = 0
 			y = 1
 			relative_position_id = BRE_army_infantry_gb_engineer
@@ -1088,7 +1088,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_army_march
-			icon = GFX_goal_unknown
+			icon = GFX_goal_army_march
 			x = 0
 			y = 5
 			relative_position_id = BRE_army_structure
@@ -1124,7 +1124,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_army_recruit
-			icon = GFX_goal_unknown
+			icon = GFX_goal_army_recruit
 			x = 0
 			y = 2
 			relative_position_id = BRE_army_structure
@@ -1140,7 +1140,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_pax_breadannica
-			icon = GFX_goal_unknown
+			icon = GFX_goal_pax_breadannica
 			x = 0
 			y = 7
 			relative_position_id = BRE_form_military

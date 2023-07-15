@@ -8,19 +8,34 @@ bread_construction:0 "Bread Construction"
 BRE_military_formation:0 "Military Formation"
 BRE_military_formation_desc:1 "The Bread Military is undergoing its formation, which requires a large amount of time and effort from our command staff."
 BRE_military_formation_removal_tt:0 "This National Spirit will be removed upon completion of the focus '§Y$BRE_form_military$§!'"
-BRE_armor_focus:0 "Armor Focus"
 BRE_modify_armor_bonus:0 "Modify §Y$BRE_armor_focus$§! by"
 BRE_armor_bonus_tt:1 "$BRE_modify_armor_bonus$ \n$armor_research$: §G+10%§! \n\n"
 BRE_armor_cost_tt:1 "§Y$medium_tank_chassis$§!: $production_cost_tt$ §G-15.00%§!"
 BRE_modify_gb_bonus:0 "Modify §Y$BRE_infantry_gb$§! by"
 BRE_gb_bonus_tt:1 "$BRE_modify_gb_bonus$ \n$MODIFIER_DIG_IN_SPEED$ §G+5%§! \n$MODIFIER_MAX_DIG_IN$: §G+5%§!\n"
-BRE_infantry_gb:0 "Grand Battleplan Focus"
-BRE_infantry_sf:0 "Superior Firepower Focus"
 BRE_modify_sf_bonus:0 "Modify §Y$BRE_infantry_sf$§! by"
 BRE_sf_bonus_tt:1 "$BRE_modify_sf_bonus$ \n$MODIFIERS_ARMY_ARTILLERY_ATTACK_FACTOR$: §G+5%§! \n$MODIFIERS_ARMY_ARTILLERY_DEFENCE_FACTOR$: §G+5%§!\n"
 BRE_modify_cas_bonus:1 "$BRE_modify_armor_bonus$ \n$armor_research$: §G+10%§! \n\n"
 BRE_march_tt: "The effects of this focus will change based on if you chose, Armor, Superior Firepower or Grand Battleplan focus."
 BRE_air_bread_tt: "The effects of this focus will change based on if you chose Air Superiority or CAS Focus."
 
+#Military Ideas
+BRE_sup_focus:0 "Air Superiority Focus"
+BRE_sup_focus2:0 "Improved Air Superiority Focus"
+BRE_sup_focus3:0 "Improved Air Superiority Focus"
+
+BRE_cas_focus:0 "CAS Focus"
+BRE_cas_focus2:0 "Improved CAS Focus"
+BRE_cas_focus3:0 "Improved CAS Focus"
+
+BRE_infantry_sf:0 "Superior Firepower Focus"
+BRE_armor_focus:0 "Armor Focus"
+BRE_infantry_gb:0 "Grand Battleplan Focus"
+
+BRE_fib_construction:0 "Improved Destroyer Construction"
+BRE_fib_commission:0 "Dockyard Commission"
+
+BRE_trade_construction:0 "Improved Submarine Construction"
+BRE_trade_mines:0 "Minelaying Strategies"
 ##Descriptions
 BRE_independence_purchase_desc:0 "In order for us to thrive, our Bread Emperor (Persuade) paid off the President."
