@@ -7,8 +7,8 @@ focus_tree = {
 			tag = BRE
 		}
 	}
-	#Industry Tree Start
 
+	#Industry Tree Start
 	focus = {
 		id = BRE_prepare_the_industrialisation
 		icon = GFX_focus_generic_industry_3
@@ -313,6 +313,7 @@ focus_tree = {
 				}
 			}		
 		}
+		#Industry Tree End
 
 		#Military Tree Start
 		focus = {
@@ -1156,4 +1157,17 @@ focus_tree = {
 		#Military Tree End
 
 		#Politics Tree Start
+
+		#Non-Aligned
+		focus = {
+			id = BRE_political_decision
+			icon = GFX_goal_political_decision
+			x = 25
+			y = 8
+			cost = 1
+			search_filters = {FOCUS_FILTER_POLITICAL}
+			completion_reward = {
+				
+			}
+		}
 }
