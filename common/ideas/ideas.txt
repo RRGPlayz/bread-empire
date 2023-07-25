@@ -483,4 +483,20 @@ country = {
 			}
 		}
 	}
+
+	country = {
+		BRE_bread_emperor = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				neutrality_drift = 0.15
+				neutrality_acceptance = 75
+			}
+		}
+	}
 }

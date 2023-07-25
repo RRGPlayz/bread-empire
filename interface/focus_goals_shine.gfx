@@ -582,7 +582,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = GFX_goal_pax_breadannica
+		name = GFX_goal_pax_breadannica_shine
 		textureFile = gfx/interface/goals/focus_pax_breadannica.dds
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {

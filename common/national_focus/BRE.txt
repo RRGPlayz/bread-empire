@@ -616,7 +616,7 @@ focus_tree = {
 			prerequisite = { focus = BRE_navy_structure }
 			search_filters = {FOCUS_FILTER_NAVY_XP}
 			completion_reward = {
-				air_experience = 75
+				navy_experience = 75
 				custom_effect_tooltip = available_chief_of_navy
 				show_ideas_tooltip = benja
 			}
@@ -1160,14 +1160,78 @@ focus_tree = {
 
 		#Non-Aligned
 		focus = {
-			id = BRE_political_decision
-			icon = GFX_goal_political_decision
+			id = BRE_bread_emperor
+			icon = GFX_goal_bread_emperor
+			mutually_exclusive = {
+				focus = BRE_council_of_bread
+				focus = BRE_bread_republic
+			}
 			x = 25
 			y = 8
-			cost = 1
+			cost = 5
+			search_filters = {FOCUS_FILTER_POLITICAL}
+			completion_reward = {
+				add_popularity = { ideology = neutrality popularity = 0.15 }
+				add_timed_idea = {
+					idea = BRE_bread_emperor
+					days = 180
+				}
+			}
+		}
+
+		focus = {
+			id = BRE_believe_in_breademp
+			icon = GFX_goal_generic_political_pressure
+			x = 0
+			y = 1
+			relative_position_id = BRE_bread_emperor
+			cost = 5
+			prerequisite = { focus = BRE_bread_emperor }
+			search_filters = {FOCUS_FILTER_POLITICAL}
+			completion_reward = {
+				add_political_power = 200
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}
+			}
+		}
+
+		#Communist
+		focus = {
+			id = BRE_council_of_bread
+			icon = GFX_goal_bread_council
+			mutually_exclusive = {
+				focus = BRE_bread_republic
+				focus = BRE_bread_emperor
+			}
+			x = 15
+			y = 8
+			cost = 5
 			search_filters = {FOCUS_FILTER_POLITICAL}
 			completion_reward = {
 				
 			}
 		}
+
+
+		#Democracy
+			focus = {
+			id = BRE_bread_republic
+			icon = GFX_goal_bread_republic
+			mutually_exclusive = {
+				focus = BRE_council_of_bread
+				focus = BRE_bread_emperor
+			}
+			x = 35
+			y = 8
+			cost = 5
+			search_filters = {FOCUS_FILTER_POLITICAL}
+			completion_reward = {
+				
+			}
+		}
+
+		#Fascist when I get around to doing it
+
 }
