@@ -499,4 +499,21 @@ country = {
 			}
 		}
 	}
+
+	country = {
+		BRE_emp_party = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				fascism_drift = -0.05
+				communism_drift = -0.05
+				democratic_drift = -0.05
+			}
+		}
+	}
 }

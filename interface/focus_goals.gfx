@@ -114,4 +114,14 @@ spriteTypes = {
 		name = GFX_goal_pax_breadannica
 		textureFile = gfx/interface/goals/focus_pax_breadannica.dds
 	}
+
+	spriteType = {
+		name = GFX_goal_bread_empire
+		textureFile = gfx/interface/goals/focus_bread_empire.dds
+	}
+
+	spriteType = {
+		name = GFX_goal_emp_party
+		textureFile = gfx/interface/goals/focus_emp_party.dds
+	}
 }
