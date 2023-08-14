@@ -1201,6 +1201,9 @@ focus_tree = {
 		focus = {
 			id = BRE_council_of_bread
 			icon = GFX_goal_bread_council
+			available = {
+				always = no
+			}
 			mutually_exclusive = {
 				focus = BRE_bread_republic
 				focus = BRE_bread_emperor
@@ -1219,6 +1222,9 @@ focus_tree = {
 			focus = {
 			id = BRE_bread_republic
 			icon = GFX_goal_bread_republic
+			available = {
+				always = no
+			}
 			mutually_exclusive = {
 				focus = BRE_council_of_bread
 				focus = BRE_bread_emperor
