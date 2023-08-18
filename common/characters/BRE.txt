@@ -294,4 +294,22 @@ the_bread_emperor = {
 				}
 		}
 	}
+
+	BRE_he = {
+		name = "BRE_he"
+		portraits = {
+			army = {
+				small = "GFX_character_he"
+				large = "GFX_character_he"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 9
+			attack_skill = 9
+			defense_skill = 9
+			planning_skill = 9
+			logistics_skill = 9
+		}
+	}
 }
