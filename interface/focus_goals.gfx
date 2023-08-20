@@ -124,4 +124,9 @@ spriteTypes = {
 		name = GFX_goal_emp_party
 		textureFile = gfx/interface/goals/focus_emp_party.dds
 	}
+
+	spriteType = {
+		name = GFX_goal_great_war
+		textureFile = gfx/interface/goals/focus_great_war.dds
+	}
 }

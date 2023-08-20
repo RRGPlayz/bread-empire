@@ -36,8 +36,12 @@ BRE_infantry_gb:0 "Grand Battleplan Focus"
 
 BRE_fib_construction:0 "Improved Destroyer Construction"
 BRE_fib_commission:0 "Dockyard Commission"
-
 BRE_trade_construction:0 "Improved Submarine Construction"
 BRE_trade_mines:0 "Minelaying Strategies"
+
+#Political Ideas
+#Non Aligned
+BRE_bread_emperor_i:0 "Believe in the Emperor!"
+
 ##Descriptions
 BRE_independence_purchase_desc:0 "In order for us to thrive, our Bread Emperor (Persuade) paid off the President."

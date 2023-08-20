@@ -10,7 +10,9 @@ BRE_oog:0 "The Ooger"
 
 BRE_max:0 "Max Friedrich"
 
-BRE_benja:0 "Benja Genie"
+BRE_benja:0 "Benja"
+
+BRE_baritone:0 "Baritone"
 
 BRE_lee:0 "Lee"
 
@@ -27,6 +29,8 @@ BRE_panther:0 "Panther"
 BRE_deezo:0 "Deezo"
 
 BRE_he:0 "He"
+
+BRE_drifter:0 "Drifter"
 
 ##Char Descriptions
 persuade_desc: "'That Guy' - Persuade"

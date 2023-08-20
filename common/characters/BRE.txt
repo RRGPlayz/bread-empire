@@ -34,6 +34,7 @@ fireSpit = {
 	portraits = {
 		civilian = {
 			large = "GFX_character_fireSpit"
+			small = "GFX_character_fireSpit2"
 		}
 	}
 
@@ -42,6 +43,15 @@ fireSpit = {
 	expire = "1965.1.1"
 		ideology = liberalism
 		traits = {  }
+	}
+
+	advisor = {
+		slot = political_advisor
+		idea_token = fireSpit
+		available = {
+			is_country_leader = no
+		}
+		traits = { democratic_reformer }
 	}
 }
 
@@ -296,7 +306,7 @@ the_bread_emperor = {
 	}
 
 	BRE_he = {
-		name = "BRE_he"
+		name =BRE_he
 		portraits = {
 			army = {
 				small = "GFX_character_he"
@@ -310,6 +320,36 @@ the_bread_emperor = {
 			defense_skill = 9
 			planning_skill = 9
 			logistics_skill = 9
+		}
+	}
+
+	BRE_drifter={
+		name= BRE_drifter
+		portraits={
+			army={
+				small = "GFX_character_drifter1"
+				large = "GFX_character_drifter2"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_leader infantry_expert }
+			skill = 6
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor={
+			cost = 150
+			slot = high_command
+			idea_token = drifter
+				allowed = {
+					original_tag = BRE
+				}
+				
+				traits = {
+					army_infantry_2
+				}
 		}
 	}
 }

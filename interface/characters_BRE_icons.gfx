@@ -36,6 +36,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_character_fireSpit2"
+		textureFile = "gfx/interface/ideas/fireSpit.dds"
+	}
+
+	spriteType = {
 		name = "GFX_character_bread_emperor"
 		textureFile = "gfx/leaders/bread_emperor.dds"
 	}
@@ -68,5 +73,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_character_he"
 		textureFile = "gfx/leaders/he.dds"
+	}
+
+	spriteType = {
+		name = "GFX_character_drifter1"
+		textureFile = "gfx/interface/ideas/drifter.dds"
+	}
+
+	spriteType = {
+		name = "GFX_character_drifter2"
+		textureFile = "gfx/leaders/drifter.dds"
 	}
 }

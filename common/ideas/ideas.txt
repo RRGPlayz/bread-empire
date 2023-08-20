@@ -485,7 +485,7 @@ country = {
 	}
 
 	country = {
-		BRE_bread_emperor = {
+		BRE_bread_emperor_i = {
 			allowed = {
 				always = no
 			}
@@ -501,7 +501,7 @@ country = {
 	}
 
 	country = {
-		BRE_emp_party = {
+		BRE_emp_party_i = {
 			allowed = {
 				always = no
 			}
@@ -518,7 +518,7 @@ country = {
 	}
 
 	country = {
-		BRE_emp_fighting = {
+		BRE_emp_fighting_i = {
 			allowed = {
 				always = no
 			}
@@ -535,7 +535,7 @@ country = {
 	}
 
 	country = {
-		BRE_emp_neutrality = {
+		BRE_emp_neutrality_i = {
 			allowed = {
 				always = no
 			}

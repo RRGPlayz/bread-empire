@@ -101,6 +101,7 @@ recruit_character = BRE_panther
 recruit_character = BRE_benja
 recruit_character = BRE_baritone
 recruit_character = BRE_he
+recruit_character = BRE_drifter
 
 ##Equipment Variations##
 #Tanks#

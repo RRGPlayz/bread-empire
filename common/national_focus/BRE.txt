@@ -1172,7 +1172,7 @@ focus_tree = {
 			completion_reward = {
 				add_popularity = { ideology = neutrality popularity = 0.15 }
 				add_timed_idea = {
-					idea = BRE_bread_emperor
+					idea = BRE_bread_emperor_i
 					days = 180
 				}
 			}
@@ -1206,7 +1206,7 @@ focus_tree = {
 			prerequisite = { focus = BRE_emp_believe }
 			search_filters = {FOCUS_FILTER_POLITICAL}
 			completion_reward = {
-				add_ideas = BRE_emp_party
+				add_ideas = BRE_emp_party_i
 			}
 		}
 
@@ -1227,7 +1227,7 @@ focus_tree = {
 			search_filters = {FOCUS_FILTER_POLITICAL}
 			completion_reward = {
 				set_rule = { can_send_volunteers = yes }
-				add_ideas = BRE_emp_neutrality
+				add_ideas = BRE_emp_neutrality_i
 			}
 		}
 
@@ -1244,13 +1244,13 @@ focus_tree = {
 			}
 			search_filters = {FOCUS_FILTER_POLITICAL}
 			completion_reward = {
-				add_ideas = BRE_emp_fighting
+				add_ideas = BRE_emp_fighting_i
 			}
 		}
 
 		focus = {
 			id = BRE_fighting_prepare
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_position_armies
 			x = 0
 			y = 1
 			relative_position_id = BRE_emp_fighting
@@ -1281,11 +1281,11 @@ focus_tree = {
 		
 		focus = {
 			id = BRE_emp_planning1
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_more_territorial_claims
 			x = -2
 			y = 1
 			relative_position_id = BRE_fighting_prepare
-			cost = 5
+			cost = 1
 			prerequisite = { focus = BRE_fighting_prepare }
 			search_filters = {FOCUS_FILTER_POLITICAL}
 			completion_reward = {
@@ -1297,11 +1297,11 @@ focus_tree = {
 
 		focus = {
 			id = BRE_emp_planning2
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_territory_or_war
 			x = 0
 			y = 1
 			relative_position_id = BRE_fighting_prepare
-			cost = 5
+			cost = 1
 			prerequisite = { focus = BRE_fighting_prepare }
 			search_filters = {FOCUS_FILTER_POLITICAL}
 			completion_reward = {
@@ -1313,7 +1313,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_emp_execute
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_demand_territory
 			x = 1
 			y = 1
 			relative_position_id = BRE_emp_planning1
@@ -1342,7 +1342,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_emp_pacify
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_propaganda
 			x = -2
 			y = 1
 			relative_position_id = BRE_emp_execute
@@ -1356,7 +1356,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_emp_pacify_2
-			icon = GFX_goal_unknown
+			icon = GFX_focus_generic_self_management
 			x = 0
 			y = 1
 			relative_position_id = BRE_emp_pacify
@@ -1389,7 +1389,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_emp_uk
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_political_pressure
 			x = 0
 			y = 1
 			relative_position_id = BRE_emp_execute
@@ -1426,7 +1426,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_emp_great_war_planning
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_forceful_treaty
 			x = 0
 			y = 1
 			relative_position_id = BRE_emp_uk
@@ -1453,7 +1453,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_emp_great_war
-			icon = GFX_goal_unknown
+			icon = GFX_goal_great_war
 			x = 0
 			y = 1
 			relative_position_id = BRE_emp_great_war_planning
@@ -1510,7 +1510,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_emp_pacify_us
-			icon = GFX_goal_unknown
+			icon = GFX_focus_eng_move_to_secure_the_dominions
 			x = 0
 			y = 1
 			relative_position_id = BRE_emp_great_war
@@ -1532,7 +1532,7 @@ focus_tree = {
 
 		focus = {
 			id = BRE_emp_usa_core
-			icon = GFX_goal_unknown
+			icon = GFX_focus_generic_diplomatic_treaty
 			x = 0
 			y = 1
 			relative_position_id = BRE_emp_pacify_us
