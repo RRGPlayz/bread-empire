@@ -18,6 +18,8 @@ BRE_sf_bonus_tt:1 "$BRE_modify_sf_bonus$ \n$MODIFIERS_ARMY_ARTILLERY_ATTACK_FACT
 BRE_modify_cas_bonus:1 "$BRE_modify_armor_bonus$ \n$armor_research$: §G+10%§! \n\n"
 BRE_march_tt: "The effects of this focus will change based on if you chose, Armor, Superior Firepower or Grand Battleplan focus."
 BRE_air_bread_tt: "The effects of this focus will change based on if you chose Air Superiority or CAS Focus."
+BRE_emp_usaclaims_tt: "Grants cores along the East Coast of the USA (Louisiana - North Carolina)"
+BRE_emp_usa_war_tt: "Gain 18 units of Bread-Militia."
 
 #Military Ideas
 BRE_sup_focus:0 "Air Superiority Focus"

@@ -675,7 +675,6 @@ focus_tree = {
 					}
 				
 				random_owned_controlled_state = {
-					prioritize = { 7388 }
 				create_unit = {
 					division = "division_template = \"Bread Marines\" start_experience_factor = 0.2 start_equipment_factor = 1.0"
 					owner = ROOT
@@ -968,7 +967,6 @@ focus_tree = {
 						}
 					}
 					random_owned_controlled_state = {
-						prioritize = { 7388 }
 					create_unit = {
 						division = "division_template = \"Gluten-Division\" start_experience_factor = 0.2 start_equipment_factor = 1.0"
 						owner = ROOT
@@ -1339,6 +1337,214 @@ focus_tree = {
 					target = DOM
 					generator = { 319 }
 				}
+			}
+		}
+
+		focus = {
+			id = BRE_emp_pacify
+			icon = GFX_goal_unknown
+			x = -2
+			y = 1
+			relative_position_id = BRE_emp_execute
+			cost = 5
+			prerequisite = { focus = BRE_emp_execute }
+			search_filters = {FOCUS_FILTER_POLITICAL}
+			completion_reward = {
+				add_ideas = BRE_emp_pacification
+			}
+		}
+
+		focus = {
+			id = BRE_emp_pacify_2
+			icon = GFX_goal_unknown
+			x = 0
+			y = 1
+			relative_position_id = BRE_emp_pacify
+			cost = 5
+			prerequisite = { 
+				focus = BRE_emp_pacify
+			}
+			available = {
+				315 = {
+					is_owned_and_controlled_by = BRE
+				}
+			}
+			available = {
+				318 = {
+					is_owned_and_controlled_by = BRE
+				}
+			}
+			available = {
+				319 = {
+					is_owned_and_controlled_by = BRE
+				}
+			}
+			search_filters = {FOCUS_FILTER_POLITICAL}
+			completion_reward = {
+				add_state_core = 315 
+				add_state_core = 318 
+				add_state_core = 319
+			}
+		}
+
+		focus = {
+			id = BRE_emp_uk
+			icon = GFX_goal_unknown
+			x = 0
+			y = 1
+			relative_position_id = BRE_emp_execute
+			cost = 5
+			prerequisite = { focus = BRE_emp_execute }
+			search_filters = {FOCUS_FILTER_POLITICAL}
+			completion_reward = {
+				add_timed_idea = {
+					idea = BRE_uk_persuasion
+					days = 180
+				}
+				689 = {
+					transfer_state_to = BRE
+				}
+				690 = {
+					transfer_state_to = BRE
+				}
+				693 = {
+					transfer_state_to = BRE
+				}
+				hidden_effect = {
+					689 = {
+						add_core_of = BRE
+					}
+					690 = {
+						add_core_of = BRE
+					}
+					693 = {
+						add_core_of = BRE
+					}
+				}
+			}
+		}
+
+		focus = {
+			id = BRE_emp_great_war_planning
+			icon = GFX_goal_unknown
+			x = 0
+			y = 1
+			relative_position_id = BRE_emp_uk
+			cost = 5
+			prerequisite = { focus = BRE_emp_uk }
+			search_filters = {FOCUS_FILTER_POLITICAL}
+			completion_reward = {
+				custom_effect_tooltip = BRE_emp_usaclaims_tt
+				add_timed_idea = {
+					idea = BRE_great_war_prep
+					days = 360
+				}
+				hidden_effect = {
+					365 = { add_core_of = BRE }
+					367 = { add_core_of = BRE }
+					364 = { add_core_of = BRE }
+					363 = { add_core_of = BRE }
+					370 = { add_core_of = BRE }
+					371 = { add_core_of = BRE }
+					368 = { add_core_of = BRE}
+				}
+			}
+		}
+
+		focus = {
+			id = BRE_emp_great_war
+			icon = GFX_goal_unknown
+			x = 0
+			y = 1
+			relative_position_id = BRE_emp_great_war_planning
+			cost = 5
+			prerequisite = { focus = BRE_emp_great_war_planning }
+			search_filters = {FOCUS_FILTER_POLITICAL}
+			completion_reward = {
+				custom_effect_tooltip = BRE_emp_usa_war_tt
+				USA = { 
+					set_rule = {
+						can_join_factions = no
+					}
+					add_ideas = BRE_usa_surprise 
+				}
+				add_timed_idea = {
+					idea = BRE_gw_plan
+					days = 360
+				}
+				declare_war_on = { type = annex_everything	target = USA }
+				hidden_effect = {
+					division_template = {
+						name = "Bread-Militia"
+						template_counter = 3
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+				
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+						}
+						support = {
+							engineer = { x = 0 y = 0 }
+						}
+					}
+					random_owned_controlled_state = {
+					create_unit = {
+						division = "division_template = \"Bread-Militia\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
+						owner = ROOT
+						count = 18
+					}
+				}
+				}
+				set_autonomy = {
+					target = PHI
+					autonomy_state = autonomy_free
+				}
+				638 = {
+					set_state_owner_to = JAP
+				}
+			}
+		}
+
+		focus = {
+			id = BRE_emp_pacify_us
+			icon = GFX_goal_unknown
+			x = 0
+			y = 1
+			relative_position_id = BRE_emp_great_war
+			bypass = {
+				has_completed_focus = BRE_emp_pacify
+			}
+			available = {
+				361 = {
+					is_owned_or_subject_trigger = yes
+				}
+			}
+			cost = 5
+			prerequisite = { focus = BRE_emp_great_war }
+			search_filters = {FOCUS_FILTER_POLITICAL}
+			completion_reward = {
+				add_ideas = BRE_emp_pacification
+			}
+		}
+
+		focus = {
+			id = BRE_emp_usa_core
+			icon = GFX_goal_unknown
+			x = 0
+			y = 1
+			relative_position_id = BRE_emp_pacify_us
+			cost = 5
+			prerequisite = { focus = BRE_emp_pacify_us }
+			search_filters = {FOCUS_FILTER_POLITICAL}
+			completion_reward = {
+				every_state = {
+					limit = { is_core_of = USA }
+					add_core_of = ROOT
+				}
+				set_cosmetic_tag = BRE_USA
 			}
 		}
 

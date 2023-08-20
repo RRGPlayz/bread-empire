@@ -549,4 +549,90 @@ country = {
 			}
 		}
 	}
+
+	country = {
+		BRE_emp_pacification = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {	
+				compliance_growth = 0.05
+				required_garrison_factor = -0.30
+			}
+		}
+	}
+
+	country = {
+		BRE_uk_persuasion = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.20
+			}
+		}
+	}
+
+	country = {
+		BRE_great_war_prep = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				max_planning = 0.2
+				planning_speed = 0.35
+				naval_invasion_prep_speed = 0.25
+			}
+		}
+	}
+
+	country = {
+		BRE_usa_surprise = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_org_factor = -0.1
+				army_attack_factor = -0.5
+				army_defence_factor = -0.5
+				surrender_limit = -0.75
+			}
+		}
+	}
+
+	country = {
+		BRE_gw_plan = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_org_factor = 0.1
+			}
+			targeted_modifier = {
+				tag = USA
+				attack_bonus_against = 0.25
+				defense_bonus_against = 0.25
+			}
+		}
+	}
 }
