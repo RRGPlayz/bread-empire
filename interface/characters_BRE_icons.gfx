@@ -104,4 +104,9 @@ spriteTypes = {
 		name = "GFX_character_rumble"
 		textureFile = "gfx/leaders/rumble.dds"
 	}
+
+	spriteType = {
+		name = "GFX_character_ash"
+		textureFile = "gfx/leaders/ash.dds"
+	}
 }

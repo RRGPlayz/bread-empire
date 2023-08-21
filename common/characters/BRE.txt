@@ -15,11 +15,11 @@ commune_of_bread = {
 	}
 }
 
-facist_bread = {
-	name = facist_bread
+ash = {
+	name = ash
 	portraits = {
 		civilian = {
-			large = "/gfx/leaders/persuade.dds"
+			large = "GFX_character_ash"
 		}
 	}
 	country_leader = {
