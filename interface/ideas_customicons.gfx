@@ -1,8 +1,8 @@
 spriteTypes = { 
 
 	SpriteType = { 
-		name = "GFX_idea_bread_production-1472"
-		texturefile = "gfx/interface/ideas/bread_production-1472.dds"
+		name = "GFX_idea_bread_production"
+		texturefile = "gfx/interface/ideas/bread_production.dds"
 	}
 
 	SpriteType = { 
@@ -15,4 +15,8 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideas/BRE_independence_purchase.dds"
 	}
 
+	spriteType = {
+		name = ""
+		textureFile = ""
+	}
  }

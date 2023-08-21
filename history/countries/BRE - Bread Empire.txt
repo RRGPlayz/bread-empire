@@ -8,7 +8,7 @@ set_convoys = 20
 
 add_ideas = {
 	volunteer_only
-	low_economic_mobilisation
+	civilian_economy
 }
 add_timed_idea = {
     idea = BRE_independence_purchase
@@ -17,7 +17,6 @@ add_timed_idea = {
 
 ##Order of Battles
 set_air_oob = "BRE_1936_air"
-set_naval_oob = ""
 
 #Starting tech
 set_technology = {
@@ -106,7 +105,7 @@ recruit_character = BRE_drifter
 ##Equipment Variations##
 #Tanks#
 create_equipment_variant = {
-	name = "M1 Combat Car"
+	name = "M1 Combat Baguette"
 	type = light_tank_chassis_1
 	parent_version = 0
 	modules = {
@@ -124,7 +123,7 @@ create_equipment_variant = {
 	icon = "GFX_USA_basic_light_tank_medium"
 }
 create_equipment_variant = {
-	name = "M2A2"
+	name = "M2A1 Abread"
 	type = light_tank_chassis_1
 	parent_version = 1
 	modules = {
@@ -155,7 +154,7 @@ create_equipment_variant = {
 	obsolete = yes
 }
 create_equipment_variant = {
-	name = "P-26A" #
+	name = "P-26 Pumpernickel" #
 	type = small_plane_airframe_0
 	modules = {
 		fixed_main_weapon_slot = light_mg_2x
@@ -219,7 +218,7 @@ create_equipment_variant = {
 	icon = "GFX_USA_CAS1_medium"
 }
 create_equipment_variant = {
-	name = "P-35A" #
+	name = "P-35 Rye" #
 	type = small_plane_airframe_1
 	modules = {
 		fixed_main_weapon_slot = light_mg_2x
@@ -230,7 +229,7 @@ create_equipment_variant = {
 	icon = "GFX_USA_light_plane_4_medium"
 }
 create_equipment_variant = {
-	name = "P-36A" #
+	name = "P-36 Wheatang" #
 	type = small_plane_airframe_1
 	modules = {
 		fixed_main_weapon_slot = light_mg_4x

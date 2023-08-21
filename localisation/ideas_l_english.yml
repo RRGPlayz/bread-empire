@@ -1,10 +1,16 @@
 ﻿l_english:
+#Industry Tree
 bread_production:0 "Bread Production"
 bread_production_desc:0 "Our Bread Production has spiked since the announcement of the grand opening!"
-the_bakery:0 "The Bakery"
 BRE_independence_purchase:0 "Cost of Independence"
 bread_output:0 "Bread Output"
 bread_construction:0 "Bread Construction"
+
+#Designer Ideas
+the_bakery:0 "The Bakery"
+bakery_lightair:0 ""
+
+#Military Tree
 BRE_military_formation:0 "Military Formation"
 BRE_military_formation_desc:1 "The Bread Military is undergoing its formation, which requires a large amount of time and effort from our command staff."
 BRE_military_formation_removal_tt:0 "This National Spirit will be removed upon completion of the focus '§Y$BRE_form_military$§!'"
@@ -18,8 +24,6 @@ BRE_sf_bonus_tt:1 "$BRE_modify_sf_bonus$ \n$MODIFIERS_ARMY_ARTILLERY_ATTACK_FACT
 BRE_modify_cas_bonus:1 "$BRE_modify_armor_bonus$ \n$armor_research$: §G+10%§! \n\n"
 BRE_march_tt: "The effects of this focus will change based on if you chose, Armor, Superior Firepower or Grand Battleplan focus."
 BRE_air_bread_tt: "The effects of this focus will change based on if you chose Air Superiority or CAS Focus."
-BRE_emp_usaclaims_tt: "Grants cores along the East Coast of the USA (Louisiana - North Carolina)"
-BRE_emp_usa_war_tt: "Gain 18 units of Bread-Militia."
 
 #Military Ideas
 BRE_sup_focus:0 "Air Superiority Focus"
@@ -42,6 +46,17 @@ BRE_trade_mines:0 "Minelaying Strategies"
 #Political Ideas
 #Non Aligned
 BRE_bread_emperor_i:0 "Believe in the Emperor!"
+BRE_emp_party_i:0 "The Emperor's "One" Party"
+BRE_emp_fighting_i:0 "Path of Conflict"
+BRE_uk_persuasion:0 "UK Persuasion Payments"
+BRE_emp_pacification:0 "Pacify the New Land"
+BRE_great_war_prep:0 "Great War Preparations"
+BRE_gw_plan:0 "Execute the plan!"
+BRE_usa_surprise:0 "Military Downfall"
+BRE_emp_usaclaims_tt: "Grants cores along the East Coast of the USA (Louisiana - North Carolina)"
+BRE_emp_usalose_tt: "The Philippines becomes independent, and the US loses control over its Pacific Islands."
+BRE_emp_usa_war_tt: "Gain 18 units of Bread-Militia."
+
 
 ##Descriptions
 BRE_independence_purchase_desc:0 "In order for us to thrive, our Bread Emperor (Persuade) paid off the President."

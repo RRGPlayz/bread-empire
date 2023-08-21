@@ -1,4 +1,6 @@
 ideas = {
+
+	#Designers
 	materiel_manufacturer = {
 		designer = yes
 		the_bakery = {
@@ -15,9 +17,23 @@ ideas = {
 		}
 	}
 
+	aircraft_manufacturer = {
+		designer = yes
+		bakery_lightair = {
+			allowed = {
+				original_tag = BRE
+			}
+			traits = { light_aircraft_manufacturer }
+			modifier = {
+
+			}
+		}
+	}
+
+	#Focus Tree Ideas
 	country = {
 		bread_production = {
-			picture = bread_production-1472
+			picture = bread_production
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.05 
 				industrial_capacity_factory = 0.025
@@ -26,7 +42,7 @@ ideas = {
 	}
 	country = {
 		bread_output = {
-			picture = bread_production-1472
+			picture = bread_production
 			modifier = {
 				industrial_capacity_factory = 0.15
 			}
@@ -34,7 +50,7 @@ ideas = {
 	}
 	country = {
 		bread_construction = {
-			picture = bread_production-1472
+			picture = bread_production
 			modifier = {
 				production_speed_buildings_factor = 0.25
 			}
@@ -44,7 +60,6 @@ ideas = {
 	country = {
 		BRE_independence_purchase = {
 			picture = independence_purchase
-			ledger = civilian
 			modifier = {
 				consumer_goods_factor = 0.25
 			}

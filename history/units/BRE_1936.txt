@@ -16,7 +16,7 @@ instant_effect = {
 		equipment = {
 			type = small_plane_airframe_1
 			creator = "BRE" 
-			version_name = "P-35A"
+			version_name = "P-35 Rye"
 		}
 		requested_factories = 1
 		progress = 0.15

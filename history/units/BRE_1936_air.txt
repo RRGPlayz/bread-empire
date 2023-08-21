@@ -3,7 +3,7 @@ air_wings = {
 		small_plane_airframe_1 =  {
 			owner = "BRE" 
 			amount = 36
-			version_name = "P-35A"
+			version_name = "P-35 Rye"
 		}
 	}
 }

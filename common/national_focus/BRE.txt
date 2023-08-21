@@ -319,10 +319,10 @@ focus_tree = {
 		focus = {
 			id = BRE_form_military
 			icon = GFX_goal_form_military
-			x = 25
+			x = 20
 			y = 0
 			cost = 10
-
+			relative_position_id = BRE_prepare_the_industrialisation
 			select_effect = {
 				add_ideas = BRE_military_formation
 			}
@@ -1165,8 +1165,9 @@ focus_tree = {
 				focus = BRE_bread_republic
 				focus = BRE_bread_reich
 			}
-			x = 25
-			y = 8
+			x = 0
+			y = 1
+			relative_position_id = BRE_pax_breadannica
 			cost = 5
 			search_filters = {FOCUS_FILTER_POLITICAL}
 			completion_reward = {
@@ -1497,14 +1498,37 @@ focus_tree = {
 						count = 18
 					}
 				}
+				638 = {
+					set_state_owner_to = JAP
+				}
+				632 = {
+					set_state_owner_to = JAP
+				}
+				631 = {
+					set_state_owner_to = JAP
+				}
+				630 = {
+					set_state_owner_to = JAP
+				}
+				642 = {
+					set_state_owner_to = ENG
+				}
+				727 = {
+					set_state_owner_to = ENG
 				}
 				set_autonomy = {
 					target = PHI
 					autonomy_state = autonomy_free
 				}
-				638 = {
-					set_state_owner_to = JAP
+				USA = {
+					release = HAW
 				}
+				set_autonomy = {
+					target = HAW
+					autonomy_state = autonomy_free
+				}
+				}
+			custom_effect_tooltip = BRE_emp_usalose_tt
 			}
 		}
 
@@ -1560,8 +1584,9 @@ focus_tree = {
 				focus = BRE_bread_emperor
 				focus = BRE_bread_reich
 			}
-			x = 15
-			y = 8
+			x = -5
+			y = 0
+			relative_position_id = BRE_bread_emperor
 			cost = 5
 			search_filters = {FOCUS_FILTER_POLITICAL}
 			completion_reward = {
@@ -1582,8 +1607,9 @@ focus_tree = {
 				focus = BRE_bread_emperor
 				focus = BRE_bread_reich
 			}
-			x = 35
-			y = 8
+			x = 5
+			y = 0
+			relative_position_id = BRE_bread_emperor
 			cost = 5
 			search_filters = {FOCUS_FILTER_POLITICAL}
 			completion_reward = {
@@ -1603,8 +1629,9 @@ focus_tree = {
 				focus = BRE_bread_emperor
 				focus = BRE_bread_republic
 			}
-			x = 45
-			y = 8
+			x = 10
+			y = 0
+			relative_position_id = BRE_bread_emperor
 			cost = 5
 			search_filters = {FOCUS_FILTER_POLITICAL}
 			completion_reward = {
