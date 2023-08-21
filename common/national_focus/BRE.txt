@@ -1165,7 +1165,7 @@ focus_tree = {
 				focus = BRE_bread_republic
 				focus = BRE_bread_reich
 			}
-			x = 0
+			x = -3
 			y = 1
 			relative_position_id = BRE_pax_breadannica
 			cost = 5
@@ -1516,6 +1516,9 @@ focus_tree = {
 				727 = {
 					set_state_owner_to = ENG
 				}
+				650 = {
+					set_state_owner_to = SOV
+				}
 				set_autonomy = {
 					target = PHI
 					autonomy_state = autonomy_free
@@ -1569,6 +1572,16 @@ focus_tree = {
 					add_core_of = ROOT
 				}
 				set_cosmetic_tag = BRE_USA
+				custom_effect_tooltip = BRE_emp_usa_breadmania_tt
+				hidden_effect = {
+					set_capital = {
+						state = 361
+					}
+					set_province_name = {
+						id = 3957
+						name = Breadmania
+					}
+				}
 			}
 		}
 
@@ -1584,7 +1597,7 @@ focus_tree = {
 				focus = BRE_bread_emperor
 				focus = BRE_bread_reich
 			}
-			x = -5
+			x = -7
 			y = 0
 			relative_position_id = BRE_bread_emperor
 			cost = 5
@@ -1607,7 +1620,7 @@ focus_tree = {
 				focus = BRE_bread_emperor
 				focus = BRE_bread_reich
 			}
-			x = 5
+			x = 7
 			y = 0
 			relative_position_id = BRE_bread_emperor
 			cost = 5
@@ -1629,7 +1642,7 @@ focus_tree = {
 				focus = BRE_bread_emperor
 				focus = BRE_bread_republic
 			}
-			x = 10
+			x = 13
 			y = 0
 			relative_position_id = BRE_bread_emperor
 			cost = 5

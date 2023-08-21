@@ -100,6 +100,7 @@ the_bread_emperor = {
 		advisor={
 			cost = 150
 			slot = political_advisor
+			desc = BRE_oog_desc
 			idea_token = oog
 				allowed = {
 					original_tag = BRE
@@ -195,7 +196,7 @@ the_bread_emperor = {
 		name = "BRE_oscar"
 		portraits = {
 			army = {
-				small = "GFX_character_oscar"
+				small = "GFX_character_oscar1"
 				large = "GFX_character_oscar"
 			}
 		}
@@ -209,6 +210,11 @@ the_bread_emperor = {
 			visible = { 
 				has_completed_focus = BRE_army_recruit
 			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = BRE_oscar
+			traits = { silent_workhorse }
 		}
 	}
 
@@ -349,6 +355,26 @@ the_bread_emperor = {
 				
 				traits = {
 					army_infantry_2
+				}
+		}
+	}
+
+	BRE_skam={
+		name=BRE_skam
+		portraits={
+			army={
+				small="GFX_character_skam"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = political_advisor
+			idea_token = skam
+				allowed = {
+					original_tag = BRE
+				}
+				traits = {
+					head_of_intelligence
 				}
 		}
 	}

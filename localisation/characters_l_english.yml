@@ -32,9 +32,13 @@ BRE_he:0 "He"
 
 BRE_drifter:0 "Drifter"
 
+BRE_skam:0 "Skam"
+
 ##Char Descriptions
 persuade_desc: "'That Guy' - Persuade"
 
 fireSpit_desc: "This is not Spitfire, this is his twin brother, fireSpit."
 
 commune_desc: "This council is made up entirely of people that live in Europe, and that is why they are perfect for this council in Florida."
+
+BRE_oog_desc: "The one who oogs"

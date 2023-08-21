@@ -27,6 +27,11 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_character_oscar"
+		textureFile = "gfx/leaders/oscar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_character_oscar1"
 		textureFile = "gfx/interface/ideas/oscar.dds"
 	}
 
@@ -83,5 +88,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_character_drifter2"
 		textureFile = "gfx/leaders/drifter.dds"
+	}
+
+	spriteType = {
+		name = "GFX_character_skam"
+		textureFile = "gfx/interface/ideas/skam.dds"
 	}
 }
