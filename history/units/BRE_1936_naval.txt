@@ -1,0 +1,14 @@
+units = {
+	fleet = {
+		name = "Bread Force"			
+		naval_base = 1843 # Florida
+		task_force = {				
+			name = "Bread Force"				
+			location = 1843 # Florida	
+
+			ship = { name = "BES Persuade" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Farragut Class" } } }		
+			ship = { name = "BES Hamilton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Farragut Class" } } }		
+			ship = { name = "BES Roper" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BRE version_name = "Farragut Class" } } }		
+		}					
+	}
+}

@@ -145,6 +145,7 @@ the_bread_emperor = {
 		portraits={
 			army={
 				small="GFX_character_benja"
+				large = "GFX_character_benja1"
 			}
 		}
 		advisor={
@@ -160,6 +161,16 @@ the_bread_emperor = {
 				traits = {
 					navy_chief_decisive_battle_2
 				}
+		}
+		navy_leader = {
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 5
+			coordination_skill = 4
+			traits = {
+				
+			}
 		}
 	}
 
@@ -377,6 +388,26 @@ the_bread_emperor = {
 				traits = {
 					head_of_intelligence
 				}
+		}
+	}
+
+	BRE_rumble={
+		name=BRE_rumble
+		portraits={
+			army={
+				large="GFX_character_rumble"
+			}
+		}
+		navy_leader = {
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 5
+			coordination_skill = 4
+
+			traits = {
+				
+			}
 		}
 	}
 }

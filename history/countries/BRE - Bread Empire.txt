@@ -17,6 +17,7 @@ add_timed_idea = {
 
 ##Order of Battles
 set_air_oob = "BRE_1936_air"
+set_naval_oob = "BRE_1936_naval"
 
 #Starting tech
 set_technology = {
@@ -102,6 +103,7 @@ recruit_character = BRE_baritone
 recruit_character = BRE_he
 recruit_character = BRE_drifter
 recruit_character = BRE_skam
+recruit_character = BRE_rumble
 
 ##Equipment Variations##
 #Tanks#
