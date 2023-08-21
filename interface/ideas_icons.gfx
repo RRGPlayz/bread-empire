@@ -5,18 +5,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/bread_production.dds"
 	}
 
-	SpriteType = { 
-		name = "GFX_idea_the_bakery"
-		texturefile = "gfx/interface/ideas/the_bakery.dds"
-	}
+	
 	
 	spriteType = {
 		name = "GFX_idea_independence_purchase"
 		textureFile = "gfx/interface/ideas/BRE_independence_purchase.dds"
 	}
 
+	#Designers
+	#Tank
 	spriteType = {
-		name = ""
-		textureFile = ""
+		name = "GFX_idea_bread_armcar"
+		textureFile = "gfx/interface/ideas/designers/ArmCar.dds"
 	}
+
+	#Navy
+
+
+	#Aircraft
+
+
+	#Material
+	SpriteType = { 
+		name = "GFX_idea_the_bakery"
+		texturefile = "gfx/interface/ideas/designers/the_bakery.dds"
+	}
+
+	#Industrial
  }

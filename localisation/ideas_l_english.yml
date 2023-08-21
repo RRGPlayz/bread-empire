@@ -6,8 +6,16 @@ BRE_independence_purchase:0 "Cost of Independence"
 bread_output:0 "Bread Output"
 bread_construction:0 "Bread Construction"
 
-#Designer Ideas
-the_bakery:0 "The Bakery"
+##Designer Ideas
+#Tanks
+bread_mtanks:0 "Medium Bread"
+bread_ltanks:0 "Light Bread"
+bread_htanks:0 "Heavy Bread"
+bread_armcar:0 "Co-op's Own Wholemeal Loaf"
+bread_inftanks:0 "Infantry Bread"
+
+
+the_bakery:0 "The Bread Bank"
 bakery_lightair:0 ""
 
 #Military Tree

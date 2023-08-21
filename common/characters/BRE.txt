@@ -247,7 +247,7 @@ the_bread_emperor = {
 		}
 		advisor={
 			cost = 150
-			slot = air_chief
+			slot = high_command
 			idea_token = deezo
 				allowed = {
 					original_tag = BRE
@@ -256,7 +256,7 @@ the_bread_emperor = {
 					has_completed_focus = BRE_air_decide
 				}
 				traits = {
-					air_chief_ground_support_2
+					air_close_air_support_2
 				}
 		}
 	}
@@ -301,6 +301,7 @@ the_bread_emperor = {
 		advisor={
 			cost = 150
 			slot = political_advisor
+			desc = BRE_bartitone_desc
 			idea_token = baritone
 				allowed = {
 					original_tag = BRE

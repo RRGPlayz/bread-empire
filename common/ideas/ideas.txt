@@ -1,8 +1,96 @@
 ideas = {
 
 	#Designers
+
+	tank_manufacturer = {
+		designer = yes
+
+		bread_mtanks = {
+			allowed = {
+				original_tag = BRE
+			}
+			research_bonus = {
+				armor = 0.15
+			}
+			traits = {
+				medium_tank_manufacturer
+			}
+		}
+
+		bread_ltanks = {
+			allowed = {
+				original_tag = BRE
+			}
+			research_bonus = {
+				armor = 0.15
+			}
+			traits = {
+				medium_tank_manufacturer
+			}
+		}
+
+		bread_htanks = {
+			allowed = {
+				original_tag = BRE
+			}
+			research_bonus = {
+				armor = 0.15
+			}
+			traits = {
+				heavy_aircraft_manufacturer
+			}
+		}
+
+		bread_armcar = {
+			allowed = {
+				original_tag = BRE
+			}
+			research_bonus = {
+				cat_armored_cars = 0.15
+			}
+			traits = {
+				armored_car_manufacturer
+			}
+		}
+
+		bread_inftanks = {
+			allowed = {
+				original_tag = BRE
+			}
+			research_bonus = {
+				armor = 0.15
+			}
+			traits = {
+				infantry_tank_manufacturer
+			}
+		}
+	}
+
+	naval_manufacturer = {
+		designer = yes
+
+
+	}
+
+	aircraft_manufacturer = {
+
+		designer = yes
+
+		bakery_lightair = {
+			allowed = {
+				original_tag = BRE
+			}
+			traits = { light_aircraft_manufacturer }
+			modifier = {
+
+			}
+		}
+
+	}
+
 	materiel_manufacturer = {
 		designer = yes
+
 		the_bakery = {
 			allowed = {
 				original_tag = BRE
@@ -15,19 +103,11 @@ ideas = {
 
 			}
 		}
+
 	}
 
-	aircraft_manufacturer = {
-		designer = yes
-		bakery_lightair = {
-			allowed = {
-				original_tag = BRE
-			}
-			traits = { light_aircraft_manufacturer }
-			modifier = {
-
-			}
-		}
+	industrial_concern = {
+		
 	}
 
 	#Focus Tree Ideas
