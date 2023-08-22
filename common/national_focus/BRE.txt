@@ -1255,7 +1255,7 @@ focus_tree = {
 			x = 0
 			y = 1
 			relative_position_id = BRE_emp_fighting
-			cost = 5
+			cost = 10
 			prerequisite = { focus = BRE_emp_fighting }
 			search_filters = {FOCUS_FILTER_POLITICAL}
 			completion_reward = {
@@ -1361,7 +1361,7 @@ focus_tree = {
 			x = 0
 			y = 1
 			relative_position_id = BRE_emp_pacify
-			cost = 5
+			cost = 10
 			prerequisite = { 
 				focus = BRE_emp_pacify
 			}
@@ -1394,7 +1394,7 @@ focus_tree = {
 			x = 0
 			y = 1
 			relative_position_id = BRE_emp_execute
-			cost = 5
+			cost = 10
 			prerequisite = { focus = BRE_emp_execute }
 			search_filters = {FOCUS_FILTER_POLITICAL}
 			completion_reward = {
@@ -1431,7 +1431,7 @@ focus_tree = {
 			x = 0
 			y = 1
 			relative_position_id = BRE_emp_uk
-			cost = 5
+			cost = 10
 			prerequisite = { focus = BRE_emp_uk }
 			search_filters = {FOCUS_FILTER_POLITICAL}
 			completion_reward = {
@@ -1458,7 +1458,7 @@ focus_tree = {
 			x = 0
 			y = 1
 			relative_position_id = BRE_emp_great_war_planning
-			cost = 5
+			cost = 10
 			prerequisite = { focus = BRE_emp_great_war_planning }
 			search_filters = {FOCUS_FILTER_POLITICAL}
 			completion_reward = {

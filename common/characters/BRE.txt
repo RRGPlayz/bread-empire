@@ -396,6 +396,7 @@ the_bread_emperor = {
 		portraits={
 			army={
 				large="GFX_character_rumble"
+				small = "GFX_character_rumble1"
 			}
 		}
 		navy_leader = {
@@ -407,6 +408,17 @@ the_bread_emperor = {
 
 			traits = {
 				
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = rumble
+			allowed = {
+				original_tag = BRE
+			}
+			traits = {
+				navy_fleet_logistics_1
 			}
 		}
 	}
