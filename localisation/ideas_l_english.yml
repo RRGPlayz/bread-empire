@@ -8,12 +8,15 @@ bread_construction:0 "Bread Construction"
 
 ##Designer Ideas
 #Tanks
-bread_mtanks:0 "Medium Bread"
-bread_ltanks:0 "Light Bread"
-bread_htanks:0 "Heavy Bread"
-bread_armcar:0 "Co-op's Own Wholemeal Loaf"
-bread_inftanks:0 "Infantry Bread"
-
+bread_mtanks:0 "Max-Panther"
+bread_ltanks:0 "Breadysler"
+bread_htanks:0 "Lee Ordnance Department"
+bread_armcar:0 "Breadian Design Bureau"
+bread_inftanks:0 "Dougsche"
+BRE_armtanks:0 "Skamault"
+bread_researchtanks:0 "Papa Arsenal"
+#Navy
+bread_gennaval:0 "Benja Genie & Company"
 
 the_bakery:0 "The Bread Bank"
 bakery_lightair:0 ""
