@@ -5,8 +5,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/bread_production.dds"
 	}
 
-	
-	
 	spriteType = {
 		name = "GFX_idea_independence_purchase"
 		textureFile = "gfx/interface/ideas/BRE_independence_purchase.dds"
@@ -15,21 +13,99 @@ spriteTypes = {
 	#Designers
 	#Tank
 	spriteType = {
-		name = "GFX_idea_bread_armcar"
-		textureFile = "gfx/interface/ideas/designers/ArmCar.dds"
+		name = "GFX_idea_bread_mtanks"
+		textureFile = "gfx/interface/ideas/designers/mtank.dds"
 	}
-
+	spriteType = {
+		name = "GFX_idea_bread_ltanks"
+		textureFile = "gfx/interface/ideas/designers/ltank.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bread_htanks"
+		textureFile = "gfx/interface/ideas/designers/htank.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bread_armcar"
+		textureFile = "gfx/interface/ideas/designers/armcar.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bread_inftanks"
+		textureFile = "gfx/interface/ideas/designers/inftank.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bread_armtanks"
+		textureFile = "gfx/interface/ideas/designers/armtank.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bread_researchtanks"
+		textureFile = "gfx/interface/ideas/designers/restank.dds"
+	}
 	#Navy
-
-
+	spriteType = {
+		name = "GFX_idea_bread_gennaval"
+		textureFile = "gfx/interface/ideas/designers/gennaval.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bread_coastalfleet"
+		textureFile = "gfx/interface/ideas/designers/coastalfleet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bread_battlefleet"
+		textureFile = "gfx/interface/ideas/designers/battlefleet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bread_escortfleet"
+		textureFile = "gfx/interface/ideas/designers/escortfleet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bread_raidingfleet"
+		textureFile = "gfx/interface/ideas/designers/raidingfleet.dds"
+	}
 	#Aircraft
-
-
+	spriteType = {
+		name = "GFX_idea_bread_lightair"
+		textureFile = "gfx/interface/ideas/designers/lightair.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bread_mediumair"
+		textureFile = "gfx/interface/ideas/designers/mediumair.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bread_heavyair"
+		textureFile = "gfx/interface/ideas/designers/heavyair.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bread_navalair"
+		textureFile = "gfx/interface/ideas/designers/navalair.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bread_casair"
+		textureFile = "gfx/interface/ideas/designers/casair.dds"
+	}
 	#Material
 	SpriteType = { 
 		name = "GFX_idea_bread_infantry"
-		texturefile = "gfx/interface/ideas/designers/the_bakery.dds"
+		texturefile = "gfx/interface/ideas/designers/brinfantry.dds"
 	}
-
+	SpriteType = { 
+		name = "GFX_idea_bread_artillery"
+		texturefile = "gfx/interface/ideas/designers/brartillery.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_bread_motorized"
+		texturefile = "gfx/interface/ideas/designers/brmotorized.dds"
+	}
 	#Industrial
+	SpriteType = { 
+		name = "GFX_idea_bread_industrial"
+		texturefile = "gfx/interface/ideas/designers/brindustrial.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_bread_electronics"
+		texturefile = "gfx/interface/ideas/designers/brelectronics.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_bread_refining"
+		texturefile = "gfx/interface/ideas/designers/brrefining.dds"
+	}
  }

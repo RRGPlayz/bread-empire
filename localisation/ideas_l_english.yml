@@ -13,7 +13,7 @@ bread_ltanks:0 "Breadysler"
 bread_htanks:0 "Lee Ordnance Department"
 bread_armcar:0 "Breadian Design Bureau"
 bread_inftanks:0 "Dougsche"
-BRE_armtanks:0 "Skamault"
+bread_armtanks:0 "Skamault"
 bread_researchtanks:0 "Papa Arsenal"
 #Navy
 bread_gennaval:0 "Benja Genie & Company"

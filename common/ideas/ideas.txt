@@ -25,7 +25,7 @@ ideas = {
 				armor = 0.15
 			}
 			traits = {
-				medium_tank_manufacturer
+				tank_manufacturer
 			}
 		}
 
