@@ -17,11 +17,22 @@ BRE_armtanks:0 "Skamault"
 bread_researchtanks:0 "Papa Arsenal"
 #Navy
 bread_gennaval:0 "Benja Genie & Company"
+bread_coastalfleet:0 "Breadian Naval Yards"
+bread_battlefleet:0 "Sourdough Boat Company"
+bread_escortfleet:0 "Breadoniawerft"
+bread_raidingfleet:0 "Rumble & Voss"
+#Air
+bread_lightair:0 "North Breadstick Aviation"
+bread_mediumair:0 "Lockleed"
+bread_heavyair:0 "Doeing"
+bread_navalair:0 "Messersstick"
+bread_casair:0 "Superbread"
+#Material
+bread_infantry:0 "The Bread Bank"
+#Industrial Concern
 
-the_bakery:0 "The Bread Bank"
-bakery_lightair:0 ""
 
-#Military Tree
+##Military Tree
 BRE_military_formation:0 "Military Formation"
 BRE_military_formation_desc:1 "The Bread Military is undergoing its formation, which requires a large amount of time and effort from our command staff."
 BRE_military_formation_removal_tt:0 "This National Spirit will be removed upon completion of the focus '§Y$BRE_form_military$§!'"

@@ -106,7 +106,7 @@ ideas = {
 			}
 		}
 
-		bread_coastal = {
+		bread_coastalfleet = {
 			allowed = {
 				original_tag = BRE
 			}
@@ -154,50 +154,79 @@ ideas = {
 			}
 		}
 
-		bread_submarine = {
-			allowed = {
-				original_tag = BRE
-			}
-			research_bonus = {
-				naval_equipment = 0.15
-			}
-			modifier = {
-				unit_submarine_design_cost_factor = -0.15
-				navy_submarine_detection_factor = -0.10
-			}
-		}
-
 	}
 
 	aircraft_manufacturer = {
-
 		designer = yes
 
-		bakery_lightair = {
+		bread_lightair = {
 			allowed = {
 				original_tag = BRE
 			}
 			traits = { light_aircraft_manufacturer }
-			modifier = {
+		}
 
+		bread_mediumair = {
+			allowed = {
+				original_tag = BRE
+			}
+			traits = {
+				medium_aircraft_manufacturer
 			}
 		}
 
+		bread_heavyair = {
+			allowed = {
+				original_tag = BRE
+			}
+			traits = {
+				heavy_aircraft_manufacturer
+			}
+		}
+
+		bread_navalair = {
+			allowed = {
+				original_tag = BRE
+			}
+			traits = {
+				naval_aircraft_manufacturer
+			}
+		}
+
+		bread_casair = {
+			allowed = {
+				original_tag = BRE
+			}
+			traits = {
+				CAS_manufacturer
+			}
+		}
 	}
 
 	materiel_manufacturer = {
 		designer = yes
 
-		the_bakery = {
+		bread_infantry = {
 			allowed = {
 				original_tag = BRE
 			}
 			research_bonus = {
 				infantry_weapons = 0.15
 			}
-			traits = { infantry_equipment_manufacturer }
-			modifier = {
+			traits = { 
+				infantry_equipment_manufacturer
+			}
+		}
 
+		bread_artillery = {
+			allowed = {
+				original_tag = BRE
+			}
+			research_bonus = {
+				artillery = 0.15
+			}
+			traits = {
+				artillery_manufacturer
 			}
 		}
 
