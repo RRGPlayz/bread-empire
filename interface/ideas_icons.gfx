@@ -27,7 +27,7 @@ spriteTypes = {
 
 	#Material
 	SpriteType = { 
-		name = "GFX_idea_the_bakery"
+		name = "GFX_idea_bread_infantry"
 		texturefile = "gfx/interface/ideas/designers/the_bakery.dds"
 	}
 

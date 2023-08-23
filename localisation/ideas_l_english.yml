@@ -29,8 +29,12 @@ bread_navalair:0 "Messersstick"
 bread_casair:0 "Superbread"
 #Material
 bread_infantry:0 "The Bread Bank"
+bread_artillery:0 "Loafmetall"
+bread_motorized:0 "Bagel Motor Company"
 #Industrial Concern
-
+bread_industrial:0 "General Hoagie"
+bread_electronics:0 "General Baguette"
+bread_refining:0 "Broil Company"
 
 ##Military Tree
 BRE_military_formation:0 "Military Formation"
