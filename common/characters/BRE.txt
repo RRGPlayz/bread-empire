@@ -484,9 +484,25 @@ the_bread_emperor = {
 		}
 		advisor = {
 			slot = theorist
-			idea_token = BRE_reddash
+			idea_token = reddash
 			ledger = army
 			traits = { military_theorist }
+		}
+	}
+
+	BRE_section={
+		name=BRE_section
+		portraits = {
+			army = {
+				small = "GFX_character_section"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = section
+			traits = { 
+				captain_of_industry
+			}
 		}
 	}
 }

@@ -107,6 +107,7 @@ recruit_character = BRE_rumble
 recruit_character = BRE_john
 recruit_character = BRE_eiru
 recruit_character = BRE_reddash
+recruit_character = BRE_section
 
 ##Equipment Variations##
 #Tanks#

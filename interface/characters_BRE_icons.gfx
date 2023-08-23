@@ -134,4 +134,9 @@ spriteTypes = {
 		name = "GFX_character_reddash"
 		textureFile ="gfx/interface/ideas/reddash.dds"
 	}
+
+	spriteType = {
+		name = "GFX_character_section"
+		textureFile = "gfx/interface/ideas/section.dds"
+	}
 }
