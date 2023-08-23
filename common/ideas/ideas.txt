@@ -118,18 +118,6 @@ ideas = {
 			}
 		}
 
-		bread_battlefleet = {
-			allowed = {
-				original_tag = BRE
-			}
-			research_bonus = {
-				naval_equipment = 0.15
-			}
-			traits = {
-				battlefleet_designer
-			}
-		}
-
 		bread_escortfleet = {
 			allowed = {
 				original_tag = BRE

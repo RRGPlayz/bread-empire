@@ -422,4 +422,71 @@ the_bread_emperor = {
 			}
 		}
 	}
+
+	BRE_john={
+		name=BRE_john
+		portraits={
+			army={
+				large="GFX_character_john"
+				small = "GFX_character_john1"
+			}
+		}
+		navy_leader = {
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+
+			traits = {
+				lone_wolf
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = john
+			allowed = {
+				original_tag = BRE
+			}
+			traits = {
+				fascist_demagogue
+			}
+		}
+	}
+
+	BRE_eiru={
+		name=BRE_eiru
+		portraits={
+			army={
+				small = "GFX_character_eiru"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = eiru
+			allowed = {
+				original_tag = BRE
+			}
+			traits = {
+				war_industrialist
+			}
+		}
+	}
+
+	BRE_reddash={
+		name=BRE_reddash
+		portraits = {
+			army = {
+				small = "GFX_character_reddash"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = BRE_reddash
+			ledger = army
+			traits = { military_theorist }
+		}
+	}
 }

@@ -50,10 +50,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideas/designers/coastalfleet.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_bread_battlefleet"
-		textureFile = "gfx/interface/ideas/designers/battlefleet.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_bread_escortfleet"
 		textureFile = "gfx/interface/ideas/designers/escortfleet.dds"
 	}

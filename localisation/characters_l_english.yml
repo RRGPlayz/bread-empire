@@ -36,6 +36,12 @@ BRE_skam:0 "Skam"
 
 BRE_rumble:0 "Rumble"
 
+BRE_john:0 "John"
+
+BRE_eiru:0 "Eiru"
+
+BRE_reddash:0 "RedDash"
+
 ##Char Descriptions
 persuade_desc: "'That Guy' - Persuade"
 

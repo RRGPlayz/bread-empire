@@ -114,4 +114,24 @@ spriteTypes = {
 		name = "GFX_character_ash"
 		textureFile = "gfx/leaders/ash.dds"
 	}
+
+	spriteType = {
+		name = "GFX_character_john1"
+		textureFile = "gfx/interface/ideas/john.dds"
+	}
+
+	spriteType = {
+		name = "GFX_character_john"
+		textureFile = "gfx/leaders/john.dds"
+	}
+
+	spriteType = {
+		name = "GFX_character_eiru"
+		textureFile = "gfx/interface/ideas/eiru.dds"
+	}
+
+	spriteType = {
+		name = "GFX_character_reddash"
+		textureFile ="gfx/interface/ideas/reddash.dds"
+	}
 }
