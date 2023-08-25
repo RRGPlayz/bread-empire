@@ -10,6 +10,7 @@ add_ideas = {
 	volunteer_only
 	civilian_economy
 	BRE_military_formation
+	bread_naval
 }
 add_timed_idea = {
     idea = BRE_independence_purchase
