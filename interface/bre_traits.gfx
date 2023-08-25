@@ -1,0 +1,7 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = GFX_trait_cajun_artillery
+		textureFile = "gfx/interface/traits/trait_cajun_artillery.dds"
+	}
+}

@@ -1,0 +1,13 @@
+leader_traits = {
+
+	cajun_artillery = {
+		type = land
+		trait_type = assignable_trait
+
+		modifier = {
+			army_artillery_attack_factor = 0.25
+			army_artillery_defence_factor = 0.25
+		}
+	}
+
+}

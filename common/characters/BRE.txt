@@ -80,7 +80,7 @@ the_bread_emperor = {
 			}
 		}
 		corps_commander = {
-			traits = { old_guard }
+			traits = { old_guard cajun_artillery }
 			skill = 6
 			attack_skill = 4
 			defense_skill = 2
