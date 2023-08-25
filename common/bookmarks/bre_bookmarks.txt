@@ -1,0 +1,22 @@
+bookmarks = {
+	bookmark = {
+		name = "bre_bookmarks_name"
+		desc = "bre_bookmarks_desc"
+		date = 1936.1.1.12
+	picture = "rise_of_the_bread_empire-1"
+		default_country = "BRE"
+		BRE = {
+			history = "bre_bookmarks_BRE"
+			ideology = neutrality
+			focuses = {
+				BRE_emp_usa_core
+				BRE_pax_breadannica
+				BRE_emp_great_war
+			}
+			ideas = {
+				BRE_independence_purchase
+				BRE_military_formation
+			}
+		}
+	}
+}
