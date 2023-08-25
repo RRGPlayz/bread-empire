@@ -733,7 +733,7 @@ focus_tree = {
 			x = 3
 			y = 1
 			relative_position_id = BRE_navy_benja
-			cost = 5
+			cost = 10
 			prerequisite = { focus = BRE_navy_benja }
 			mutually_exclusive = { focus = BRE_navy_fib }
 			search_filters = {FOCUS_FILTER_NAVY_XP}
@@ -854,7 +854,7 @@ focus_tree = {
 			x = 3
 			y = 1
 			relative_position_id = BRE_army_structure
-			cost = 1
+			cost = 5
 			prerequisite = { focus = BRE_army_structure }
 			mutually_exclusive = { focus = BRE_army_armor }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
@@ -869,7 +869,7 @@ focus_tree = {
 			x = -3
 			y = 1
 			relative_position_id = BRE_army_structure
-			cost = 1
+			cost = 5
 			prerequisite = { focus = BRE_army_structure }
 			mutually_exclusive = { focus = BRE_army_infantry }
 			search_filters = {FOCUS_FILTER_ARMY_XP}
@@ -1248,7 +1248,7 @@ focus_tree = {
 			prerequisite = { focus = BRE_emp_fighting }
 			search_filters = {FOCUS_FILTER_POLITICAL}
 			completion_reward = {
-				add_ideas = partial_economic_mobilisation
+				add_ideas = war_economy
 				add_ideas = limited_conscription
 				random_owned_controlled_state = {
 					limit = {
