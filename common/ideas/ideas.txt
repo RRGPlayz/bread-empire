@@ -881,7 +881,7 @@ country = {
 				army_attack_factor = -0.5
 				army_defence_factor = -0.5
 				surrender_limit = -0.75
-				naval_invasion_prep_speed = 10
+				naval_invasion_prep_speed = -1
 				naval_invasion_penalty = 1
 			}
 		}
@@ -898,6 +898,11 @@ country = {
 			removal_cost = -1
 			modifier = {
 				army_org_factor = 0.1
+				supply_consumption_factor = -0.25
+				army_speed_factor = 0.15
+				industrial_capacity_factory = 0.25
+				repair_speed_factor = 0.75
+				industry_free_repair_factor = 0.75
 			}
 			targeted_modifier = {
 				tag = USA
