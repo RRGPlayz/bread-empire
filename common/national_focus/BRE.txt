@@ -1459,10 +1459,7 @@ focus_tree = {
 					}
 					add_ideas = BRE_usa_surprise 
 				}
-				add_timed_idea = {
-					idea = BRE_gw_plan
-					days = 360
-				}
+				add_ideas = BRE_gw_plan
 				declare_war_on = { type = annex_everything	target = USA }
 				hidden_effect = {
 					division_template = {

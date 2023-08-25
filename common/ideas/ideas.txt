@@ -891,6 +891,7 @@ country = {
 		BRE_gw_plan = {
 			allowed = {
 				always = no
+				has_offensive_war_with = USA
 			}
 			allowed_civil_war = {
 				always = yes
