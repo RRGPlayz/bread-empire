@@ -883,6 +883,9 @@ country = {
 				surrender_limit = -0.75
 				naval_invasion_prep_speed = -1
 				naval_invasion_penalty = 1
+				navy_fuel_consumption_factor = 10
+				army_fuel_consumption_factor = 10
+				air_fuel_consumption_factor = 10
 			}
 		}
 	}
