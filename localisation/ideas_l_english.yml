@@ -59,9 +59,20 @@ BRE_cas_focus:0 "CAS Focus"
 BRE_cas_focus2:0 "Improved CAS Focus"
 BRE_cas_focus3:0 "Improved CAS Focus"
 
-BRE_infantry_sf:0 "Superior Firepower Focus"
 BRE_armor_focus:0 "Armor Focus"
+BRE_armor_focus1:0 "Improved Armor Focus"
+BRE_armor_focus2:0 "Extensive Armor Focus"
+BRE_armor_focus3:0 "Complete Armor Focus"
+
+BRE_infantry_sf:0 "Superior Firepower Focus"
+BRE_infantry_sf1:0 "Improved SF Focus"
+BRE_infantry_sf2:0 "Extensive SF Focus"
+BRE_infantry_sf3:0 "Complete SF Focus"
+
 BRE_infantry_gb:0 "Grand Battleplan Focus"
+BRE_infantry_gb1:0 "Improved GB Focus"
+BRE_infantry_gb2:0 "Extensive GB Focus"
+BRE_infantry_gb3:0 "Complete GB Focus"
 
 BRE_fib_construction:0 "Improved Destroyer Construction"
 BRE_fib_commission:0 "Dockyard Commission"

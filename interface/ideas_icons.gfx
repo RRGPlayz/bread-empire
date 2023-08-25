@@ -97,34 +97,139 @@ spriteTypes = {
 
 	###Focus Tree
 	##Military Tree
-	#Army
 	spriteType = {
-		name = "GFX_idea_bre_armor_focus"
+		name = "GFX_idea_BRE_pax_breadannica"
+		textureFile = "gfx/interface/ideas/bre_pax_breadannica.dds"
+	}
+	#Army 
+	spriteType = {
+		name = "GFX_idea_BRE_armor_focus"
 		textureFile = "gfx/interface/ideas/bre_armor.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_bre_armor_focus1"
-		textureFile = "gfx/interface/ideas/bre_armor1.dds"
+		name = "GFX_idea_BRE_armor_focus1"
+		textureFile = "gfx/interface/ideas/bre_armor.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_bre_armor_focus2"
-		textureFile = "gfx/interface/ideas/bre_armor2.dds"
+		name = "GFX_idea_BRE_armor_focus2"
+		textureFile = "gfx/interface/ideas/bre_armor.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_bre_armor_focus3"
-		textureFile = "gfx/interface/ideas/bre_armor3.dds"
+		name = "GFX_idea_BRE_armor_focus3"
+		textureFile = "gfx/interface/ideas/bre_armor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BRE_infantry_sf"
+		textureFile = "gfx/interface/ideas/bre_sf.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_infantry_sf2"
+		textureFile = "gfx/interface/ideas/bre_sf.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_infantry_sf3"
+		textureFile = "gfx/interface/ideas/bre_sf.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BRE_infantry_gb"
+		textureFile = "gfx/interface/ideas/bre_gb.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_infantry_gb2"
+		textureFile = "gfx/interface/ideas/bre_gb.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_infantry_gb3"
+		textureFile = "gfx/interface/ideas/bre_gb.dds"
 	}
 	#Airforce
+	spriteType = {
+		name = "GFX_idea_BRE_cas_focus"
+		textureFile = "gfx/interface/ideas/bre_cas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_cas_focus2"
+		textureFile = "gfx/interface/ideas/bre_cas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_cas_focus3"
+		textureFile = "gfx/interface/ideas/bre_cas.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BRE_sup_focus"
+		textureFile = "gfx/interface/ideas/bre_sup.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_sup_focus2"
+		textureFile = "gfx/interface/ideas/bre_sup.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_sup_focus3"
+		textureFile = "gfx/interface/ideas/bre_sup.dds"
+	}
+
 
 	#Navy
 	spriteType = {
 		name = "GFX_idea_BRE_trade_mines"
 		textureFile = "gfx/interface/ideas/bre_mines.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_BRE_trade_construction"
+		textureFile = "gfx/interface/ideas/bre_sub.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_fib_construction"
+		textureFile = "gfx/interface/ideas/bre_destroyers.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_fib_commission"
+		textureFile = "gfx/interface/ideas/bre_commission.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_navy_waves"
+		textureFile = "gfx/interface/ideas/bre_waves.dds"
+	}
+
 	##Political Tree
 	spriteType = {
 		name = "GFX_idea_independence_purchase"
 		textureFile = "gfx/interface/ideas/BRE_independence_purchase.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_bread_emperor_i"
+		textureFile = "gfx/interface/ideas/BRE_emperor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_emp_party_i"
+		textureFile = "gfx/interface/ideas/BRE_emperor_party.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_emp_fighting_i"
+		textureFile = "gfx/interface/ideas/BRE_fighting.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_uk_persuasion"
+		textureFile = "gfx/interface/ideas/BRE_ukpersuasion.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_emp_pacification"
+		textureFile = "gfx/interface/ideas/BRE_pacification.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_great_war_prep"
+		textureFile = "gfx/interface/ideas/BRE_gw_prep.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_gw_plan"
+		textureFile = "gfx/interface/ideas/BRE_gw.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRE_usa_surprise"
+		textureFile = "gfx/interface/ideas/BRE_usa_surprise.dds"
 	}
 
 	##Industry Tree

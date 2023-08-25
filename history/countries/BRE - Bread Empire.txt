@@ -9,6 +9,7 @@ set_convoys = 20
 add_ideas = {
 	volunteer_only
 	civilian_economy
+	BRE_military_formation
 }
 add_timed_idea = {
     idea = BRE_independence_purchase
