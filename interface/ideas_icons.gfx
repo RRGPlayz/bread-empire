@@ -1,16 +1,6 @@
 spriteTypes = { 
 
-	SpriteType = { 
-		name = "GFX_idea_bread_production"
-		texturefile = "gfx/interface/ideas/bread_production.dds"
-	}
-
-	spriteType = {
-		name = "GFX_idea_independence_purchase"
-		textureFile = "gfx/interface/ideas/BRE_independence_purchase.dds"
-	}
-
-	#Designers
+	##Designers
 	#Tank
 	spriteType = {
 		name = "GFX_idea_bread_mtanks"
@@ -103,5 +93,43 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_idea_bread_refining"
 		texturefile = "gfx/interface/ideas/designers/brrefining.dds"
+	}
+
+	###Focus Tree
+	##Military Tree
+	#Army
+	spriteType = {
+		name = "GFX_idea_bre_armor_focus"
+		textureFile = "gfx/interface/ideas/bre_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bre_armor_focus1"
+		textureFile = "gfx/interface/ideas/bre_armor1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bre_armor_focus2"
+		textureFile = "gfx/interface/ideas/bre_armor2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bre_armor_focus3"
+		textureFile = "gfx/interface/ideas/bre_armor3.dds"
+	}
+	#Airforce
+
+	#Navy
+	spriteType = {
+		name = "GFX_idea_BRE_trade_mines"
+		textureFile = "gfx/interface/ideas/bre_mines.dds"
+	}
+	##Political Tree
+	spriteType = {
+		name = "GFX_idea_independence_purchase"
+		textureFile = "gfx/interface/ideas/BRE_independence_purchase.dds"
+	}
+
+	##Industry Tree
+	SpriteType = { 
+		name = "GFX_idea_bread_production"
+		texturefile = "gfx/interface/ideas/bread_production.dds"
 	}
  }
