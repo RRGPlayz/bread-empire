@@ -1555,7 +1555,7 @@ focus_tree = {
 			prerequisite = { focus = BRE_emp_pacify_us }
 			available = {
 				361 = {
-					is_owned_or_subject_trigger = yes
+					state_is_fully_controlled_by_ROOT_or_subject = yes
 				}
 			}
 			search_filters = {FOCUS_FILTER_POLITICAL}
