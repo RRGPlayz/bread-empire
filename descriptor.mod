@@ -4,4 +4,5 @@ tags={
 	"Gameplay"
 }
 name="The Bread Empire"
+picture="thumbnail.png"
 supported_version="1.12.14"
