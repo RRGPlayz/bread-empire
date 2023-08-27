@@ -98,7 +98,6 @@ the_bread_emperor = {
 			}
 		}
 		advisor={
-			cost = 150
 			slot = political_advisor
 			desc = BRE_oog_desc
 			idea_token = oog
@@ -133,7 +132,6 @@ the_bread_emperor = {
 			traits = {
 				army_logistics_3
 			}
-			cost = 200
 			ai_will_do = {
 				factor = 8.000
 			}
@@ -149,7 +147,6 @@ the_bread_emperor = {
 			}
 		}
 		advisor={
-			cost = 150
 			slot = navy_chief
 			idea_token = benja
 				allowed = {
@@ -236,7 +233,6 @@ the_bread_emperor = {
 			}
 		}
 		advisor={
-			cost = 150
 			slot = air_chief
 			idea_token = nova
 				allowed = {
@@ -256,7 +252,6 @@ the_bread_emperor = {
 			}
 		}
 		advisor={
-			cost = 150
 			slot = high_command
 			idea_token = deezo
 				allowed = {
@@ -288,7 +283,6 @@ the_bread_emperor = {
 			logistics_skill = 3
 		}
 		advisor={
-			cost = 150
 			slot = high_command
 			idea_token = panther
 				allowed = {
@@ -309,7 +303,6 @@ the_bread_emperor = {
 			}
 		}
 		advisor={
-			cost = 150
 			slot = political_advisor
 			desc = BRE_bartitone_desc
 			idea_token = baritone
@@ -357,7 +350,6 @@ the_bread_emperor = {
 			logistics_skill = 2
 		}
 		advisor={
-			cost = 150
 			slot = high_command
 			idea_token = drifter
 				allowed = {
@@ -378,7 +370,6 @@ the_bread_emperor = {
 			}
 		}
 		advisor={
-			cost = 150
 			slot = political_advisor
 			idea_token = skam
 				allowed = {
@@ -410,7 +401,6 @@ the_bread_emperor = {
 			}
 		}
 		advisor = {
-			cost = 100
 			slot = high_command
 			idea_token = rumble
 			allowed = {
@@ -442,7 +432,6 @@ the_bread_emperor = {
 			}
 		}
 		advisor = {
-			cost = 100
 			slot = political_advisor
 			idea_token = john
 			allowed = {
@@ -462,7 +451,6 @@ the_bread_emperor = {
 			}
 		}
 		advisor = {
-			cost = 100
 			slot = political_advisor
 			idea_token = eiru
 			allowed = {
